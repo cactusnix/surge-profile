@@ -19,7 +19,7 @@ async function operator(proxies, _) {
   });
   // Sub Store use statusCode as return
   if (resp.statusCode !== 200) {
-    console.log(`[Sub Info Log]: Request Error Status - ${resp.status}`);
+    console.log(`[Sub Info Log]: Request Error Status - ${resp.statusCode}`);
     return proxies;
   }
   const data = resp.headers["subscription-userinfo"];
