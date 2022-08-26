@@ -17,7 +17,8 @@ async function operator(proxies, _) {
   const resp = await $.http.get({
     url: sub.url,
   });
-  if (resp.status !== 200) {
+  // Sub Store use statusCode as return
+  if (resp.statusCode !== 200) {
     console.log(`[Sub Info Log]: Request Error Status - ${resp.status}`);
     return proxies;
   }
