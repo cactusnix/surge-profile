@@ -1,5 +1,6 @@
 # Twitter Rules
-# Total: 1
+# Total: 3
 
 DOMAIN-SUFFIX, twitter.com
 DOMAIN-SUFFIX, twimg.com
+DOMAIN-SUFFIX, t.co
