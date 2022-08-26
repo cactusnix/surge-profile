@@ -1,7 +1,8 @@
 # Google Rules
-# Total: 4
+# Total: 5
 
 DOMAIN-SUFFIX, google.com
 DOMAIN-SUFFIX, googleapis.com
 DOMAIN-SUFFIX, app-measurement.com
 DOMAIN-SUFFIX, googleusercontent.com
+DOMAIN-SUFFIX, bugsnag.com
