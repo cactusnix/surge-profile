@@ -27,15 +27,30 @@ async function operator(proxies, _) {
     console.log(`[Sub Info Log]: There is no info in header`);
     return proxies;
   }
-  // suppose that the info is formatted like: upload=653129137; download=22634611295; total=322122547200; expire=1675209600
+  // Suppose that the info is formatted like: upload=653129137; download=22634611295; total=322122547200; expire=1675209600
+  /**
+   * Proxy type
+   * cipher: "chacha20-ietf"
+   * password: "password"
+   * server: "1.1.1.1"
+   * port: 8000
+   * type: "ss"
+   * name: "name"
+   */
   const group = [];
-  const fakerInfo =
-    "=ss,1.2.3.4,8000,encrypt-method=chacha20-ietf,password=1234";
-  group.push(
-    `Expire: ${new Date(
+  const fakeExample = {
+    cipher: "chacha20-ietf",
+    password: "password",
+    server: "1.1.1.1",
+    port: 8000,
+    type: "ss",
+  };
+  group.push({
+    ...fakeExample,
+    name: `Expire: ${new Date(
       Number(data.match(/expire=(\d+)/)[1]) * 1000
-    ).toLocaleDateString()}${fakerInfo}`
-  );
+    ).toLocaleDateString()}`,
+  });
   const keyValue = {
     Up: /upload=(\d+)/,
     Down: /download=(\d+)/,
@@ -45,7 +60,10 @@ async function operator(proxies, _) {
     const text =
       (Number(data.match(keyValue[key])[1]) / (1024 * 1024 * 1024)).toFixed(2) +
       "GB";
-    group.push(`${key}: ${text}${fakerInfo}`);
+    group.push({
+      ...fakeExample,
+      name: `${key}: ${text}`,
+    });
   });
   return group;
 }
