@@ -1,0 +1,6 @@
+# Google Rules
+# Total: 3
+
+DOMAIN-SUFFIX, google.com
+DOMAIN-SUFFIX, googleapis.com
+DOMAIN-SUFFIX, app-measurement.com

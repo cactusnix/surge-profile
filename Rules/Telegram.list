@@ -1,0 +1,26 @@
+# Telegram Rules
+# Total: 15
+
+DOMAIN-SUFFIX, telegram.org
+DOMAIN-SUFFIX, t.me
+// IPv4
+# AS62041
+IP-CIDR, 149.154.160.0/22, no-resolve
+IP-CIDR, 149.154.164.0/22, no-resolve
+IP-CIDR, 91.108.4.0/22, no-resolve
+IP-CIDR, 91.108.56.0/22, no-resolve
+IP-CIDR, 91.108.8.0/22, no-resolve
+IP-CIDR, 95.161.64.0/20, no-resolve
+# AS44907
+IP-CIDR, 91.108.20.0/22, no-resolve
+IP-CIDR, 91.108.20.0/23, no-resolve
+# AS59930
+IP-CIDR, 149.154.172.0/22, no-resolve
+IP-CIDR, 91.108.12.0/22, no-resolve
+// IPv6
+# AS62041
+IP-CIDR6, 2001:67c:4e8::/48, no-resolve
+# AS44907
+IP-CIDR6, 2001:b28:f23c::/48, no-resolve
+# AS59930
+IP-CIDR6, 2001:b28:f23d::/48, no-resolve
