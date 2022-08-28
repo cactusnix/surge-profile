@@ -1,5 +1,6 @@
 # General Rules
-# Total: 2
+# Total: 3
 
 DOMAIN-SUFFIX, v2ex.com
 DOMAIN-SUFFIX, medium.com
+DOMAIN-SUFFIX, vercel.app
