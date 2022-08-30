@@ -60,17 +60,17 @@ async function operator(proxies, _) {
     },
   };
   Object.keys(keyValue).forEach((key) => {
-    keyValue[key].value =
-      Number(data.match(keyValue[key].regex)[1]) /
-      (1024 * 1024 * 1024).toFixed(2);
+    keyValue[key].value = Number(
+      (data.match(keyValue[key].regex)[1] / (1024 * 1024 * 1024)).toFixed(2)
+    );
   });
   group.push({
     ...fakeExample,
-    name: `Used: ${obj.Up.value + obj.Down.value}GB`,
+    name: `Used: ${(keyValue.Up.value + keyValue.Down.value).toFixed(2)}GB`,
   });
   group.push({
     ...fakeExample,
-    name: `Total: ${obj.Total.value}GB`,
+    name: `Total: ${keyValue.Total.value}GB`,
   });
   group.push({
     ...fakeExample,
