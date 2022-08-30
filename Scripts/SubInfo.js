@@ -45,25 +45,38 @@ async function operator(proxies, _) {
     port: 8000,
     type: "ss",
   };
+  const keyValue = {
+    Up: {
+      regex: /upload=(\d+)/,
+      value: 0,
+    },
+    Down: {
+      regex: /download=(\d+)/,
+      value: 0,
+    },
+    Total: {
+      regex: /total=(\d+)/,
+      value: 0,
+    },
+  };
+  Object.keys(keyValue).forEach((key) => {
+    keyValue[key].value =
+      Number(data.match(keyValue[key].regex)[1]) /
+      (1024 * 1024 * 1024).toFixed(2);
+  });
+  group.push({
+    ...fakeExample,
+    name: `Used: ${obj.Up.value + obj.Down.value}GB`,
+  });
+  group.push({
+    ...fakeExample,
+    name: `Total: ${obj.Total.value}GB`,
+  });
   group.push({
     ...fakeExample,
     name: `Expire: ${new Date(
       Number(data.match(/expire=(\d+)/)[1]) * 1000
     ).toLocaleDateString()}`,
-  });
-  const keyValue = {
-    Up: /upload=(\d+)/,
-    Down: /download=(\d+)/,
-    Total: /total=(\d+)/,
-  };
-  Object.keys(keyValue).forEach((key) => {
-    const text =
-      (Number(data.match(keyValue[key])[1]) / (1024 * 1024 * 1024)).toFixed(2) +
-      "GB";
-    group.push({
-      ...fakeExample,
-      name: `${key}: ${text}`,
-    });
   });
   return group;
 }
