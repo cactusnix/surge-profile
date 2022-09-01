@@ -1,7 +1,8 @@
 # Block Rules
-# Total: 4
+# Total: 5
 
 DOMAIN-SUFFIX, adservice.google.com.hk
 DOMAIN-SUFFIX, googleadservices.com
 DOMAIN-SUFFIX, umeng.com
+DOMAIN-SUFFIX, umengcloud.com
 DOMAIN-SUFFIX, doubleclick.net
