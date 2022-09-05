@@ -63,6 +63,7 @@ DOMAIN-SUFFIX, googlevideo.com
 DOMAIN-SUFFIX, v2ex.com
 DOMAIN-SUFFIX, medium.com
 DOMAIN-SUFFIX, vercel.app
+DOMAIN-SUFFIX, dev.to
 # for AmyTelecom
 DOMAIN, api.nxtlnodes.com
 DOMAIN, www.amysecure.com
