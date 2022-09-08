@@ -2,6 +2,7 @@
  * Generate subscription info with SubStore script, it can be uploaded to gist.
  * Tips: This script is only for SubStore and the sub name must be 'SubInfo'.
  * Support: SubStore v2.12.7
+ * Updated: Aug 30, 2022
  * @Author cactusnix
  */
 async function operator(proxies, _) {
