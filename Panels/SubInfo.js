@@ -10,15 +10,13 @@ if (!argument) {
   });
 }
 const args = Object.fromEntries(
-  $argument
+  argument
     .split("&")
-    .map((it) => it.split("=").map(([k, v]) => [k, decodeURIComponent(v)]))
+    .map((it) =>
+      it.split("=").map((array) => [array[0], decodeURIComponent(array[1])])
+    )
 );
-console.log("[Temp]");
-console.log(args);
 $httpClient.get(args.url, (err, resp, _) => {
-  console.log(err);
-  console.log(resp);
   if (err || resp.status !== 200 || !resp.headers["subscription-userinfo"]) {
     $done({
       title: "Get Info Error or no info in headers",
@@ -45,6 +43,7 @@ $httpClient.get(args.url, (err, resp, _) => {
     );
   });
   const content = [
+    `Updated: ${new Date().toLocaleString()}`,
     `Used: ${(keyValue.Up.value + keyValue.Down.value).toFixed(2)}GB`,
     `Total: ${keyValue.Total.value}GB`,
     `Expire: ${new Date(
@@ -52,7 +51,7 @@ $httpClient.get(args.url, (err, resp, _) => {
     ).toLocaleDateString()}`,
   ];
   $done({
-    title: "Sub Info",
+    title: args.name ? args.name : "Sub Info",
     content: content.join("\n"),
   });
 });
