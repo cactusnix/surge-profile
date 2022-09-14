@@ -14,7 +14,11 @@ const args = Object.fromEntries(
     .split("&")
     .map((it) => it.split("=").map(([k, v]) => [k, decodeURIComponent(v)]))
 );
+console.log("[Temp]");
+console.log(args);
 $httpClient.get(args.url, (err, resp, _) => {
+  console.log(err);
+  console.log(resp);
   if (err || resp.status !== 200 || !resp.headers["subscription-userinfo"]) {
     $done({
       title: "Get Info Error or no info in headers",
