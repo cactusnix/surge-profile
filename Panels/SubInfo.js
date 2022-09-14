@@ -12,9 +12,8 @@ if (!argument) {
 const args = Object.fromEntries(
   argument
     .split("&")
-    .map((it) =>
-      it.split("=").map((array) => [array[0], decodeURIComponent(array[1])])
-    )
+    .map((it) => it.split("="))
+    .map(([k, v]) => [k, decodeURIComponent(v)])
 );
 $httpClient.get(args.url, (err, resp, _) => {
   if (err || resp.status !== 200 || !resp.headers["subscription-userinfo"]) {
