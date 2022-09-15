@@ -1,9 +1,0 @@
-#General Rules
-# Total: 3
-
-DOMAIN-SUFFIX, v2ex.com
-DOMAIN-SUFFIX, medium.com
-DOMAIN-SUFFIX, vercel.app
-# for AmyTelecom
-DOMAIN, api.nxtlnodes.com
-DOMAIN, www.amysecure.com

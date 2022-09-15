@@ -1,9 +1,0 @@
-# Spotify Rules
-# Total: 4
-
-DOMAIN-SUFFIX, spotify.com
-# start: Maybe not right
-DOMAIN-SUFFIX, scdn.co
-DOMAIN-SUFFIX, branch.io
-DOMAIN-SUFFIX, scorecardresearch.com
-# end
