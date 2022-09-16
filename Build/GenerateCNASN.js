@@ -1,22 +1,27 @@
 const axios = require("axios");
 const cheerio = require("cheerio");
+const fs = require("fs");
+const path = require("path");
 axios.get("https://bgp.he.net/country/CN").then((resp) => {
   const $ = cheerio.load(resp.data);
-  console.log("[$]", $);
+  const fileName = "ChinaASN";
+  const writeStream = fs.createWriteStream(
+    path.resolve(`../Rules/${fileName}.list`)
+  );
+  // assert it must have data
+  const data = $("#asns tr a").map((_, element) => {
+    const keyValue = element.attribs["title"].split(" - ");
+    const comment = keyValue[1] ? ` // ${keyValue[1]}` : "";
+    return `IP-ASN, ${keyValue[0].replace("AS", "")}, no-resolve` + comment;
+  });
+  [
+    `# Name: ${fileName} Rules`,
+    `# Total: ${data.length}`,
+    `# Updated: ${new Date().toString()}\n`,
+    ...data,
+  ].forEach((text) => writeStream.write(`${text}\n`));
+  writeStream.on("finish", () => {
+    console.log("[success]", `write all data to ${fileName}`);
+  });
+  writeStream.end();
 });
-
-// const a = fetch(
-//   "https://bgp.he.net/search?search%5Bsearch%5D=Google&commit=Search"
-// ).then((resp) => {
-//   return resp.text();
-// });
-// a.then((value) => {
-//   console.log("[resp]", value);
-// });
-// console.log(
-//   decodeURIComponent(
-//     "https://bgp.he.net/search?search%5Bsearch%5D=Google&commit=Search"
-//   )
-// );
-
-// console.log("https://bgp.he.net/country/CN");
