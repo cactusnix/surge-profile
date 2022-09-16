@@ -1,12 +1,6 @@
 #!name = DoH
-#!desc = DNS-over-HTTPS (DoH)
+#!desc = DNS-over-HTTPS (DoH) @cactusnix
 
 [General]
-dns-server = 223.5.5.5, 119.29.29.29
-encrypted-dns-server = https://a.passcloud.xyz/sz
-# 默认
-# encrypted-dns-server = https://i.passcloud.xyz/dns-query
-# Anycast 推荐
-# encrypted-dns-server = https://a.passcloud.xyz/dns-query
-# 香港
-# encrypted-dns-server = https://a.passcloud.xyz/hk
+dns-server = 223.5.5.5, 114.114.114.114
+encrypted-dns-server = https://a.passcloud.xyz/dns-query
