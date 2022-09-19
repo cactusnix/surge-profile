@@ -1,0 +1,10 @@
+# Name: GitHub Rules
+# Total: 4
+# DOMAIN: 0
+# DOMAIN-SUFFIX: 4
+# Updated: Mon Sep 19 2022 17:21:47 GMT+0800 (China Standard Time)
+
+DOMAIN-SUFFIX, github.com
+DOMAIN-SUFFIX, raw.githubusercontent.com
+DOMAIN-SUFFIX, githubassets.com
+DOMAIN-SUFFIX, githubusercontent.com

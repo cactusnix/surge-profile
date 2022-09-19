@@ -1,3 +1,4 @@
 {
-  "DOMAIN-SUFFIX": ["fast.com"]
+  "DOMAIN": ["9to5mac.com", "v2ex.com", "medium.com"],
+  "DOMAIN-SUFFIX": ["vercel.app", "duyaoss.com"]
 }

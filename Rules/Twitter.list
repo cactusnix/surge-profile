@@ -1,9 +1,9 @@
-# Name: Netflix Rules
+# Name: Twitter Rules
 # Total: 3
 # DOMAIN: 0
 # DOMAIN-SUFFIX: 3
 # Updated: Mon Sep 19 2022 17:21:47 GMT+0800 (China Standard Time)
 
-DOMAIN-SUFFIX, netflix.com
-DOMAIN-SUFFIX, nflxso.net
-DOMAIN-SUFFIX, nflxvideo.net
+DOMAIN-SUFFIX, twitter.com
+DOMAIN-SUFFIX, twimg.com
+DOMAIN-SUFFIX, t.co

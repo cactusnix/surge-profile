@@ -1,0 +1,11 @@
+# Name: Google Rules
+# Total: 5
+# DOMAIN: 0
+# DOMAIN-SUFFIX: 5
+# Updated: Mon Sep 19 2022 17:21:47 GMT+0800 (China Standard Time)
+
+DOMAIN-SUFFIX, google.com
+DOMAIN-SUFFIX, googleapis.com
+DOMAIN-SUFFIX, app-measurement.com
+DOMAIN-SUFFIX, googleusercontent.com
+DOMAIN-SUFFIX, bugsnag.com
