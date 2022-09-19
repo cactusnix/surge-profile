@@ -1,3 +1,4 @@
 {
-  "DOMAIN-SUFFIX": ["telegram.org", "t.me"]
+  "DOMAIN-SUFFIX": ["telegram.org", "t.me"],
+  "IP-ASN": ["62041", "62014", "59930", "44907", "211157"]
 }

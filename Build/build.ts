@@ -14,6 +14,7 @@ type RuleObj = {
     Total: number;
     DOMAIN: number;
     "DOMAIN-SUFFIX": number;
+    "IP-ASN": number;
   };
   value: string[];
 };
@@ -24,12 +25,13 @@ const parseDataToRuleObj = (data: Record<string, string[]>): RuleObj => {
     Total: 0,
     DOMAIN: 0,
     "DOMAIN-SUFFIX": 0,
+    "IP-ASN": 0,
   };
   Object.entries(data).forEach(([k, v]) => {
     info.Total += v.length;
     info[k] += v.length;
     v.forEach((it) => {
-      value.push(`${k}, ${it}`);
+      value.push(`${k}, ${it}` + (k === "IP-ASN" ? ", no-resolve" : ""));
     });
   });
   return {
@@ -59,12 +61,19 @@ const bunWrite = (fileName: string, obj: RuleObj) => {
 const buildTelegram = async () => {
   // Telegram doesn't have domain for service, so use ASN
   const obj = parseDataToRuleObj(Telegram);
+  // May need validate
+  const data = await fetch(
+    "https://bgp.he.net/search?search[search]=Telegram&commit=Search"
+  );
+  data.text().then((resp) => {
+    console.log(resp);
+  });
 };
 
 bunWrite("GitHub", parseDataToRuleObj(GitHub));
 bunWrite("Google", parseDataToRuleObj(Google));
 bunWrite("Netflix", parseDataToRuleObj(Netflix));
 bunWrite("Reddit", parseDataToRuleObj(Reddit));
-buildTelegram();
+bunWrite("Telegram", parseDataToRuleObj(Telegram));
 bunWrite("Twitter", parseDataToRuleObj(Twitter));
 bunWrite("YouTube", parseDataToRuleObj(YouTube));
