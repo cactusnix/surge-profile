@@ -19,14 +19,16 @@ type RuleObj = {
   value: string[];
 };
 
+const defaultInfo = {
+  Total: 0,
+  DOMAIN: 0,
+  "DOMAIN-SUFFIX": 0,
+  "IP-ASN": 0,
+};
+
 const parseDataToRuleObj = (data: Record<string, string[]>): RuleObj => {
   const value: string[] = [];
-  const info = {
-    Total: 0,
-    DOMAIN: 0,
-    "DOMAIN-SUFFIX": 0,
-    "IP-ASN": 0,
-  };
+  const info = { ...defaultInfo };
   Object.entries(data).forEach(([k, v]) => {
     info.Total += v.length;
     info[k] += v.length;
@@ -70,6 +72,31 @@ const buildTelegram = async () => {
   });
 };
 
+const buildGeneral = () => {
+  const info = { ...defaultInfo };
+  const value = [];
+  [
+    parseDataToRuleObj(General),
+    parseDataToRuleObj(GitHub),
+    parseDataToRuleObj(Google),
+    parseDataToRuleObj(Reddit),
+    parseDataToRuleObj(Telegram),
+    parseDataToRuleObj(Twitter),
+    parseDataToRuleObj(YouTube),
+  ].forEach((it) => {
+    info.Total += it.info.Total;
+    info.DOMAIN += it.info.DOMAIN;
+    info["DOMAIN-SUFFIX"] += it.info["DOMAIN-SUFFIX"];
+    info["IP-ASN"] += it.info["IP-ASN"];
+    value.push(...it.value);
+  });
+  bunWrite("General", {
+    info,
+    value,
+  });
+};
+
+buildGeneral();
 bunWrite("GitHub", parseDataToRuleObj(GitHub));
 bunWrite("Google", parseDataToRuleObj(Google));
 bunWrite("Netflix", parseDataToRuleObj(Netflix));
