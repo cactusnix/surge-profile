@@ -1,11 +1,9 @@
 # Name: YouTube Rules
-# Total: 4
+# Total: 2
 # DOMAIN: 0
-# DOMAIN-SUFFIX: 4
+# DOMAIN-SUFFIX: 2
 # IP-ASN: 0
-# Updated: Mon Sep 19 2022 21:44:48 GMT+0800 (China Standard Time)
+# Updated: Tue Sep 20 2022 18:23:03 GMT+0800 (China Standard Time)
 
 DOMAIN-SUFFIX, youtube.com
 DOMAIN-SUFFIX, ytimg.com
-DOMAIN-SUFFIX, ggpht.com
-DOMAIN-SUFFIX, googlevideo.com

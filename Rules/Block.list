@@ -1,8 +1,10 @@
 # Name: Block Rules
-# Total: 1
+# Total: 3
 # DOMAIN: 0
-# DOMAIN-SUFFIX: 1
+# DOMAIN-SUFFIX: 3
 # IP-ASN: 0
-# Updated: Tue Sep 20 2022 17:32:44 GMT+0800 (China Standard Time)
+# Updated: Tue Sep 20 2022 18:23:03 GMT+0800 (China Standard Time)
 
 DOMAIN-SUFFIX, wwads.cn
+DOMAIN-SUFFIX, googleadservices.com
+DOMAIN-SUFFIX, doubleclick.net
