@@ -1,5 +1,6 @@
 import { resolve, parse, join } from "path";
 import { write } from "bun";
+import Block from "./assets/Block.json";
 import General from "./assets/General.json";
 import GitHub from "./assets/GitHub.json";
 import Google from "./assets/Google.json";
@@ -97,6 +98,7 @@ const buildGeneral = () => {
 };
 
 buildGeneral();
+bunWrite("Block", parseDataToRuleObj(Block));
 bunWrite("GitHub", parseDataToRuleObj(GitHub));
 bunWrite("Google", parseDataToRuleObj(Google));
 bunWrite("Netflix", parseDataToRuleObj(Netflix));

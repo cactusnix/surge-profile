@@ -1,8 +1,8 @@
-# Block Rules
-# Total: 5
+# Name: Block Rules
+# Total: 1
+# DOMAIN: 0
+# DOMAIN-SUFFIX: 1
+# IP-ASN: 0
+# Updated: Tue Sep 20 2022 17:32:44 GMT+0800 (China Standard Time)
 
-DOMAIN-SUFFIX, adservice.google.com.hk
-DOMAIN-SUFFIX, googleadservices.com
-DOMAIN-SUFFIX, umeng.com
-DOMAIN-SUFFIX, umengcloud.com
-DOMAIN-SUFFIX, doubleclick.net
+DOMAIN-SUFFIX, wwads.cn
