@@ -1,3 +1,8 @@
 {
-  "DOMAIN-SUFFIX": ["wwads.cn", "googleadservices.com", "doubleclick.net"]
+  "DOMAIN-SUFFIX": [
+    "wwads.cn",
+    "googleadservices.com",
+    "doubleclick.net",
+    "adservice.google.com"
+  ]
 }
