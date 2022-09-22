@@ -1,0 +1,8 @@
+# Name: Privacy Rules
+# Total: 1
+# DOMAIN: 0
+# DOMAIN-SUFFIX: 1
+# IP-ASN: 0
+# Updated: Thu Sep 22 2022 11:43:15 GMT+0800 (China Standard Time)
+
+DOMAIN-SUFFIX, app-measurement.com

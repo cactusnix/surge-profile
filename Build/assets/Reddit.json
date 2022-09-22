@@ -1,3 +1,9 @@
 {
-  "DOMAIN-SUFFIX": ["reddit.com", "redditmedia.com", "redd.it"]
+  "DOMAIN-SUFFIX": [
+    "reddit.com",
+    "redditmedia.com",
+    "redd.it",
+    "reddithelp.com",
+    "redditstatic.com"
+  ]
 }
