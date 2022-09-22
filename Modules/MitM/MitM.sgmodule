@@ -1,5 +1,5 @@
-#!name = MitM All
-#!desc = MitM All Hostnames @cactusnix
+#!name = MitM-All
+#!desc = 解密所有主机名 @cactusnix
 
 [MITM]
 hostname = -*.apple.com, -*.icloud.com, -*.mzstatic.com, -*.crashlytics.com, -*.facebook.com, -*.instagram.com, *
