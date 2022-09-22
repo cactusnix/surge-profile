@@ -1,9 +1,9 @@
 # Name: General Rules
-# Total: 26
+# Total: 28
 # DOMAIN: 0
-# DOMAIN-SUFFIX: 21
+# DOMAIN-SUFFIX: 23
 # IP-ASN: 5
-# Updated: Wed Sep 21 2022 15:55:57 GMT+0800 (China Standard Time)
+# Updated: Thu Sep 22 2022 11:28:52 GMT+0800 (China Standard Time)
 
 DOMAIN-SUFFIX, vercel.app
 DOMAIN-SUFFIX, duyaoss.com
@@ -19,6 +19,8 @@ DOMAIN-SUFFIX, googleusercontent.com
 DOMAIN-SUFFIX, googlevideo.com
 DOMAIN-SUFFIX, ggpht.com
 DOMAIN-SUFFIX, reddit.com
+DOMAIN-SUFFIX, redditmedia.com
+DOMAIN-SUFFIX, redd.it
 DOMAIN-SUFFIX, telegram.org
 DOMAIN-SUFFIX, t.me
 IP-ASN, 62041, no-resolve
