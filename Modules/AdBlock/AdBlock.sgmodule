@@ -1,0 +1,11 @@
+#!name = AdBlock
+#!desc = 广告屏蔽 @cactusnix
+
+[MITM]
+hostname = %APPEND% api.douban.com
+
+[URL Rewrite]
+^https://api\.douban.com/v2/app_ads/splash_statistics _ reject
+^https://api\.douban.com/v2/app_ads/splash_preload _ reject
+^https://api\.douban.com/v2/app_ads/splash_bid _ reject
+^https://api\.douban.com/v2/app_ads/splash_show _ reject
