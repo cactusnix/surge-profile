@@ -1,15 +1,16 @@
 # Name: General Rules
-# Total: 31
+# Total: 32
 # DOMAIN: 0
-# DOMAIN-SUFFIX: 26
+# DOMAIN-SUFFIX: 27
 # IP-ASN: 5
-# Updated: Fri Sep 23 2022 08:50:57 GMT+0800 (China Standard Time)
+# Updated: Fri Sep 23 2022 10:48:27 GMT+0800 (China Standard Time)
 
 DOMAIN-SUFFIX, vercel.app
 DOMAIN-SUFFIX, duyaoss.com
 DOMAIN-SUFFIX, 9to5mac.com
 DOMAIN-SUFFIX, v2ex.com
 DOMAIN-SUFFIX, medium.com
+DOMAIN-SUFFIX, duckduckgo.com
 DOMAIN-SUFFIX, github.com
 DOMAIN-SUFFIX, githubassets.com
 DOMAIN-SUFFIX, githubusercontent.com
