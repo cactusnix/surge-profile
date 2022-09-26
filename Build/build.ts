@@ -9,6 +9,7 @@ import Netflix from "./assets/Netflix.json";
 import Reddit from "./assets/Reddit.json";
 import Telegram from "./assets/Telegram.json";
 import Twitter from "./assets/Twitter.json";
+import Wikipedia from "./assets/Wikipedia.json";
 import YouTube from "./assets/YouTube.json";
 
 type RuleObj = {
@@ -85,6 +86,7 @@ const buildGeneral = () => {
     parseDataToRuleObj(Telegram),
     parseDataToRuleObj(Twitter),
     parseDataToRuleObj(YouTube),
+    parseDataToRuleObj(Wikipedia),
   ].forEach((it) => {
     info.Total += it.info.Total;
     info.DOMAIN += it.info.DOMAIN;
@@ -108,3 +110,4 @@ bunWrite("Reddit", parseDataToRuleObj(Reddit));
 bunWrite("Telegram", parseDataToRuleObj(Telegram));
 bunWrite("Twitter", parseDataToRuleObj(Twitter));
 bunWrite("YouTube", parseDataToRuleObj(YouTube));
+bunWrite("Wikipedia", parseDataToRuleObj(Wikipedia));
