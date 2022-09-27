@@ -51,5 +51,6 @@ $httpClient.get(
       `Updated: ${result.time_last_update_utc.substr(0, 16)}`,
       rates.join("\n")
     );
+    $done();
   }
 );
