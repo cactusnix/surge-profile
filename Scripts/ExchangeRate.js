@@ -16,13 +16,13 @@ if (!config.APIKey) {
   $done();
 }
 const baseCode = config.baseCode || "CNY";
-const CodeMap = {
-  CNY: "🇨🇳",
-  HKD: "🇭🇰",
-  USD: "🇺🇸",
-  JPY: "🇯🇵",
-  EUR: "🇪🇺",
-  GBP: "🇬🇧",
+const codeMap = {
+  CNY: ["人民币", "🇨🇳"],
+  HKD: ["港币", "🇭🇰"],
+  USD: ["美元", "🇺🇸"],
+  JPY: ["日元", "🇯🇵"],
+  EUR: ["欧元", "🇪🇺"],
+  GBP: ["英镑", "🇬🇧"],
 };
 $httpClient.get(
   `https://v6.exchangerate-api.com/v6/${config.APIKey}/latest/${baseCode}`,
@@ -31,17 +31,18 @@ $httpClient.get(
       $notification.post("🥲[Info]: Request Fail!");
       $done();
     }
-    const rates = Object.entries(CodeMap).map(([k, v]) => {
-      const value = data.conversion_rates[k];
+    const result = JSON.parse(data);
+    const rates = Object.entries(codeMap).map(([k, v]) => {
+      const value = result.conversion_rates[k];
       // less than one will be exchanged
       if (value < 1) {
-        return `1 ${v} = ${1 / value} ${baseCode}`;
+        return `${v[1]} 1${v[0]} = ${1 / value}${codeMap[baseCode][0]}`;
       }
-      return `1 ${baseCode} = ${value} ${v}`;
+      return `${v[1]} ${value}${v[0]} = 1${codeMap[baseCode][0]}}`;
     });
     $notification.post(
       `[Total Exchange Rate]: Base is ${baseCode}`,
-      `Updated: ${data.time_last_update_utc}`,
+      `Updated: ${result.time_last_update_utc}`,
       rates.join("\n")
     );
   }
