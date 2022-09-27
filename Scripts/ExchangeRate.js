@@ -45,7 +45,7 @@ $httpClient.get(
         }
         return `${v[1]} ${value}${v[0]} = 1${codeMap[baseCode][0]}`;
       })
-      .filter((text) => text.includes("REMOVE"));
+      .filter((text) => !text.includes("REMOVE"));
     $notification.post(
       `[Total Exchange Rate]: Base is ${baseCode}`,
       `Updated: ${result.time_last_update_utc.substr(0, 16)}`,
