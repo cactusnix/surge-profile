@@ -1,11 +1,20 @@
 /**
  * Show exchange rate every day.
  * Tips: Get Data via api on https://app.exchangerate-api.com/dashboard
- * Updated: Sep 26, 2022
+ * Updated: Sep 27, 2022
  * @Author cactusnix
  */
 
-const config = $persistentStore.read("ER_CONFIG");
+const ER_CONFIG = $persistentStore.read("ER_CONFIG");
+if (!ER_CONFIG) {
+  $notification.post("😢[Warning]: No Config in $persistentStore!");
+  $done();
+}
+const config = JSON.parse(ER_CONFIG);
+if (!config.APIKey) {
+  $notification.post("😢[Warning]: No API key in $persistentStore!");
+  $done();
+}
 const baseCode = config.baseCode || "CNY";
 const CodeMap = {
   CNY: "🇨🇳",
@@ -15,10 +24,6 @@ const CodeMap = {
   EUR: "🇪🇺",
   GBP: "🇬🇧",
 };
-if (!config || !config.APIKey) {
-  $notification.post("😢[Warning]: No API Key For Request!");
-  $done();
-}
 $httpClient.get(
   `https://v6.exchangerate-api.com/v6/${config.APIKey}/latest/${baseCode}`,
   (err, resp, data) => {

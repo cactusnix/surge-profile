@@ -1,14 +1,16 @@
 /**
  * Generate subscription info with the url you input and display on the panel
- * Updated: Sep 14, 2022
+ * Updated: Sep 27, 2022
  * @Author cactusnix
  */
-const config = $persistentStore.read("SI_CONFIG");
-if (!config) {
+
+const SI_CONFIG = $persistentStore.read("SI_CONFIG");
+if (!SI_CONFIG) {
   $done({
     title: "[Warning]: No Config in $persistentStore!",
   });
 }
+const config = JSON.parse(SI_CONFIG);
 $httpClient.get(config.url, (err, resp, _) => {
   if (err || resp.status !== 200 || !resp.headers["subscription-userinfo"]) {
     $done({
