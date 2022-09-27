@@ -5,8 +5,8 @@
  * @Author cactusnix
  */
 
-const APIKey = $persistentStore.read("ER_API_KEY");
-const baseCode = $persistentStore.read("ER_BASE_CODE") || "CNY";
+const config = $persistentStore.read("ER_CONFIG");
+const baseCode = config.baseCode || "CNY";
 const CodeMap = {
   CNY: "🇨🇳",
   HKD: "🇭🇰",
@@ -15,12 +15,12 @@ const CodeMap = {
   EUR: "🇪🇺",
   GBP: "🇬🇧",
 };
-if (!APIKey) {
+if (!config || !config.APIKey) {
   $notification.post("😢[Warning]: No API Key For Request!");
   $done();
 }
 $httpClient.get(
-  `https://v6.exchangerate-api.com/v6/${APIKey}/latest/${baseCode}`,
+  `https://v6.exchangerate-api.com/v6/${config.APIKey}/latest/${baseCode}`,
   (err, resp, data) => {
     if (err || resp.status !== 200) {
       $notification.post("🥲[Info]: Request Fail!");

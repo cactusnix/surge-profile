@@ -1,0 +1,9 @@
+#!name = Sub-Info
+#!desc = 订阅信息面板 @cactusnix
+#!system = ios
+
+[Panel]
+Sub-Info = script-name=Sub-Info
+
+[Script]
+Sub-Info = type=generic, script-path=https://raw.githubusercontent.com/cactusnix/surge-profile/dev/Panels/SubInfo.js

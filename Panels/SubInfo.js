@@ -3,19 +3,13 @@
  * Updated: Sep 14, 2022
  * @Author cactusnix
  */
-const argument = $argument;
-if (!argument) {
+const config = $persistentStore.read("SI_CONFIG");
+if (!config) {
   $done({
-    title: "No $argument!",
+    title: "[Warning]: No Config in $persistentStore!",
   });
 }
-const args = Object.fromEntries(
-  argument
-    .split("&")
-    .map((it) => it.split("="))
-    .map(([k, v]) => [k, decodeURIComponent(v)])
-);
-$httpClient.get(args.url, (err, resp, _) => {
+$httpClient.get(encodeURIComponent(config.url), (err, resp, _) => {
   if (err || resp.status !== 200 || !resp.headers["subscription-userinfo"]) {
     $done({
       title: "Get Info Error or no info in headers",
@@ -50,7 +44,7 @@ $httpClient.get(args.url, (err, resp, _) => {
     ).toLocaleDateString()}`,
   ];
   $done({
-    title: args.name ? args.name : "Sub Info",
+    title: config.name ? config.name : "Sub Info",
     content: content.join("\n"),
   });
 });
