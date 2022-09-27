@@ -32,17 +32,23 @@ $httpClient.get(
       $done();
     }
     const result = JSON.parse(data);
-    const rates = Object.entries(codeMap).map(([k, v]) => {
-      const value = result.conversion_rates[k];
-      // less than one will be exchanged
-      if (value < 1) {
-        return `${v[1]} 1${v[0]} = ${1 / value}${codeMap[baseCode][0]}`;
-      }
-      return `${v[1]} ${value}${v[0]} = 1${codeMap[baseCode][0]}}`;
-    });
+    const rates = Object.entries(codeMap)
+      .map(([k, v]) => {
+        const value = result.conversion_rates[k];
+        if (k === baseCode) {
+          return "REMOVE";
+        }
+        // less than one will be exchanged
+        if (value < 1) {
+          const temp = (1 / value).toFixed(4);
+          return `${v[1]} 1${v[0]} = ${temp}${codeMap[baseCode][0]}`;
+        }
+        return `${v[1]} ${value}${v[0]} = 1${codeMap[baseCode][0]}`;
+      })
+      .filter((text) => text.includes("REMOVE"));
     $notification.post(
       `[Total Exchange Rate]: Base is ${baseCode}`,
-      `Updated: ${result.time_last_update_utc}`,
+      `Updated: ${result.time_last_update_utc.substr(0, 16)}`,
       rates.join("\n")
     );
   }
