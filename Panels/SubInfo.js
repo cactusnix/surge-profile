@@ -9,7 +9,7 @@ if (!config) {
     title: "[Warning]: No Config in $persistentStore!",
   });
 }
-$httpClient.get(encodeURIComponent(config.url), (err, resp, _) => {
+$httpClient.get(config.url, (err, resp, _) => {
   if (err || resp.status !== 200 || !resp.headers["subscription-userinfo"]) {
     $done({
       title: "Get Info Error or no info in headers",
