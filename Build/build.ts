@@ -2,9 +2,11 @@ import { resolve, parse, join } from "path";
 import { write } from "bun";
 import Privacy from "./assets/Privacy.json";
 import Block from "./assets/Block.json";
+import Facebook from "./assets/Facebook.json";
 import General from "./assets/General.json";
 import GitHub from "./assets/GitHub.json";
 import Google from "./assets/Google.json";
+import Instagram from "./assets/Instagram.json";
 import Netflix from "./assets/Netflix.json";
 import Reddit from "./assets/Reddit.json";
 import Telegram from "./assets/Telegram.json";
@@ -79,9 +81,11 @@ const buildGeneral = () => {
   const info = { ...defaultInfo };
   const value = [];
   [
+    parseDataToRuleObj(Facebook),
     parseDataToRuleObj(General),
     parseDataToRuleObj(GitHub),
     parseDataToRuleObj(Google),
+    parseDataToRuleObj(Instagram),
     parseDataToRuleObj(Reddit),
     parseDataToRuleObj(Telegram),
     parseDataToRuleObj(Twitter),
@@ -103,8 +107,10 @@ const buildGeneral = () => {
 buildGeneral();
 bunWrite("Privacy", parseDataToRuleObj(Privacy));
 bunWrite("Block", parseDataToRuleObj(Block));
+bunWrite("Facebook", parseDataToRuleObj(Facebook));
 bunWrite("GitHub", parseDataToRuleObj(GitHub));
 bunWrite("Google", parseDataToRuleObj(Google));
+bunWrite("Instagram", parseDataToRuleObj(Instagram));
 bunWrite("Netflix", parseDataToRuleObj(Netflix));
 bunWrite("Reddit", parseDataToRuleObj(Reddit));
 bunWrite("Telegram", parseDataToRuleObj(Telegram));

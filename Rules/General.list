@@ -1,10 +1,11 @@
 # Name: General Rules
-# Total: 45
+# Total: 48
 # DOMAIN: 0
-# DOMAIN-SUFFIX: 40
+# DOMAIN-SUFFIX: 43
 # IP-ASN: 5
-# Updated: Mon Sep 26 2022 10:28:32 GMT+0800 (China Standard Time)
+# Updated: Wed Sep 28 2022 11:52:09 GMT+0800 (China Standard Time)
 
+DOMAIN-SUFFIX, facebook.com
 DOMAIN-SUFFIX, vercel.app
 DOMAIN-SUFFIX, duyaoss.com
 DOMAIN-SUFFIX, 9to5mac.com
@@ -22,6 +23,8 @@ DOMAIN-SUFFIX, googleapis.com
 DOMAIN-SUFFIX, googleusercontent.com
 DOMAIN-SUFFIX, googlevideo.com
 DOMAIN-SUFFIX, ggpht.com
+DOMAIN-SUFFIX, instagram.com
+DOMAIN-SUFFIX, cdninstagram.com
 DOMAIN-SUFFIX, reddit.com
 DOMAIN-SUFFIX, redditmedia.com
 DOMAIN-SUFFIX, redd.it

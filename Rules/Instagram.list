@@ -1,9 +1,9 @@
-# Name: YouTube Rules
+# Name: Instagram Rules
 # Total: 2
 # DOMAIN: 0
 # DOMAIN-SUFFIX: 2
 # IP-ASN: 0
 # Updated: Wed Sep 28 2022 11:52:09 GMT+0800 (China Standard Time)
 
-DOMAIN-SUFFIX, youtube.com
-DOMAIN-SUFFIX, ytimg.com
+DOMAIN-SUFFIX, instagram.com
+DOMAIN-SUFFIX, cdninstagram.com
