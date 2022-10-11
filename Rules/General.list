@@ -1,9 +1,9 @@
 # Name: General Rules
-# Total: 51
+# Total: 54
 # DOMAIN: 0
-# DOMAIN-SUFFIX: 46
+# DOMAIN-SUFFIX: 49
 # IP-ASN: 5
-# Updated: Tue Oct 11 2022 14:13:11 GMT+0800 (China Standard Time)
+# Updated: Tue Oct 11 2022 20:47:54 GMT+0800 (China Standard Time)
 
 DOMAIN-SUFFIX, facebook.com
 DOMAIN-SUFFIX, vercel.app
@@ -17,15 +17,18 @@ DOMAIN-SUFFIX, course.rs
 DOMAIN-SUFFIX, macrumors.com
 DOMAIN-SUFFIX, api.nxtlnodes.com
 DOMAIN-SUFFIX, amysecure.com
+DOMAIN-SUFFIX, raycast.com
+DOMAIN-SUFFIX, rsms.me
 DOMAIN-SUFFIX, github.com
 DOMAIN-SUFFIX, githubassets.com
 DOMAIN-SUFFIX, githubusercontent.com
 DOMAIN-SUFFIX, dns.google
+DOMAIN-SUFFIX, ggpht.com
 DOMAIN-SUFFIX, google.com
 DOMAIN-SUFFIX, googleapis.com
 DOMAIN-SUFFIX, googleusercontent.com
 DOMAIN-SUFFIX, googlevideo.com
-DOMAIN-SUFFIX, ggpht.com
+DOMAIN-SUFFIX, gstatic.com
 DOMAIN-SUFFIX, instagram.com
 DOMAIN-SUFFIX, cdninstagram.com
 DOMAIN-SUFFIX, reddit.com

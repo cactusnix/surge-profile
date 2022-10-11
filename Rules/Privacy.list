@@ -1,12 +1,16 @@
 # Name: Privacy Rules
-# Total: 5
+# Total: 9
 # DOMAIN: 0
-# DOMAIN-SUFFIX: 5
+# DOMAIN-SUFFIX: 9
 # IP-ASN: 0
-# Updated: Tue Oct 11 2022 14:13:11 GMT+0800 (China Standard Time)
+# Updated: Tue Oct 11 2022 20:47:54 GMT+0800 (China Standard Time)
 
 DOMAIN-SUFFIX, app-measurement.com
 DOMAIN-SUFFIX, bugsnag.com
 DOMAIN-SUFFIX, branch.io
 DOMAIN-SUFFIX, umeng.com
 DOMAIN-SUFFIX, googletagmanager.com
+DOMAIN-SUFFIX, segment.com
+DOMAIN-SUFFIX, segment.io
+DOMAIN-SUFFIX, sentry.io
+DOMAIN-SUFFIX, onthe.io

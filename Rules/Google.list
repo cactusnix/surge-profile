@@ -1,13 +1,14 @@
 # Name: Google Rules
-# Total: 6
+# Total: 7
 # DOMAIN: 0
-# DOMAIN-SUFFIX: 6
+# DOMAIN-SUFFIX: 7
 # IP-ASN: 0
-# Updated: Tue Oct 11 2022 14:13:11 GMT+0800 (China Standard Time)
+# Updated: Tue Oct 11 2022 20:47:54 GMT+0800 (China Standard Time)
 
 DOMAIN-SUFFIX, dns.google
+DOMAIN-SUFFIX, ggpht.com
 DOMAIN-SUFFIX, google.com
 DOMAIN-SUFFIX, googleapis.com
 DOMAIN-SUFFIX, googleusercontent.com
 DOMAIN-SUFFIX, googlevideo.com
-DOMAIN-SUFFIX, ggpht.com
+DOMAIN-SUFFIX, gstatic.com

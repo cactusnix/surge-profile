@@ -1,10 +1,11 @@
 {
   "DOMAIN-SUFFIX": [
     "dns.google",
+    "ggpht.com",
     "google.com",
     "googleapis.com",
     "googleusercontent.com",
     "googlevideo.com",
-    "ggpht.com"
+    "gstatic.com"
   ]
 }

@@ -4,6 +4,10 @@
     "bugsnag.com",
     "branch.io",
     "umeng.com",
-    "googletagmanager.com"
+    "googletagmanager.com",
+    "segment.com",
+    "segment.io",
+    "sentry.io",
+    "onthe.io"
   ]
 }
