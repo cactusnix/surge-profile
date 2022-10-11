@@ -1,12 +1,13 @@
 # Name: Block Rules
-# Total: 5
+# Total: 6
 # DOMAIN: 0
-# DOMAIN-SUFFIX: 5
+# DOMAIN-SUFFIX: 6
 # IP-ASN: 0
-# Updated: Tue Oct 11 2022 14:03:03 GMT+0800 (China Standard Time)
+# Updated: Tue Oct 11 2022 14:13:11 GMT+0800 (China Standard Time)
 
 DOMAIN-SUFFIX, wwads.cn
 DOMAIN-SUFFIX, googleadservices.com
 DOMAIN-SUFFIX, doubleclick.net
 DOMAIN-SUFFIX, adservice.google.com
 DOMAIN-SUFFIX, sharethrough.com
+DOMAIN-SUFFIX, skimresources.com
