@@ -1,9 +1,9 @@
 # Name: General Rules
-# Total: 48
+# Total: 49
 # DOMAIN: 0
-# DOMAIN-SUFFIX: 43
+# DOMAIN-SUFFIX: 44
 # IP-ASN: 5
-# Updated: Wed Sep 28 2022 11:52:09 GMT+0800 (China Standard Time)
+# Updated: Tue Oct 11 2022 10:49:30 GMT+0800 (China Standard Time)
 
 DOMAIN-SUFFIX, facebook.com
 DOMAIN-SUFFIX, vercel.app
@@ -11,6 +11,7 @@ DOMAIN-SUFFIX, duyaoss.com
 DOMAIN-SUFFIX, 9to5mac.com
 DOMAIN-SUFFIX, v2ex.com
 DOMAIN-SUFFIX, medium.com
+DOMAIN-SUFFIX, quora.com
 DOMAIN-SUFFIX, duckduckgo.com
 DOMAIN-SUFFIX, api.nxtlnodes.com
 DOMAIN-SUFFIX, amysecure.com
