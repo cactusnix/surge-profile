@@ -12,7 +12,7 @@
     "googlesyndication.com",
     "3lift.com",
     "casalemedia.com",
-    "analytics.yahoo.com",
+    "yahoo.com",
     "adform.net",
     "2mdn.net",
     "amazon-adsystem.com",
@@ -21,7 +21,6 @@
     "clarium.io",
     "rubiconproject.com",
     "dotomi.com",
-    "pr.ybp.yahoo.com",
     "tapad.com",
     "pghub.io",
     "adthrive.com",
@@ -32,6 +31,14 @@
     "rubiconproject.com",
     "postrelease.com",
     "colossusssp.com",
-    "fastly.net"
+    "fastly.net",
+    "js7k.com",
+    "confiant-integrations.net",
+    "ampproject.org",
+    "openx.net",
+    "bannerflow.net",
+    "sharethrough.com",
+    "criteo.com",
+    "yimg.com"
   ]
 }

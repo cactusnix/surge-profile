@@ -1,9 +1,9 @@
 # Name: Block Rules
-# Total: 33
+# Total: 40
 # DOMAIN: 0
-# DOMAIN-SUFFIX: 33
+# DOMAIN-SUFFIX: 40
 # IP-ASN: 0
-# Updated: Wed Oct 12 2022 11:48:23 GMT+0800 (China Standard Time)
+# Updated: Wed Oct 12 2022 12:56:29 GMT+0800 (China Standard Time)
 
 DOMAIN-SUFFIX, wwads.cn
 DOMAIN-SUFFIX, googleadservices.com
@@ -17,7 +17,7 @@ DOMAIN-SUFFIX, adthrive.com
 DOMAIN-SUFFIX, googlesyndication.com
 DOMAIN-SUFFIX, 3lift.com
 DOMAIN-SUFFIX, casalemedia.com
-DOMAIN-SUFFIX, analytics.yahoo.com
+DOMAIN-SUFFIX, yahoo.com
 DOMAIN-SUFFIX, adform.net
 DOMAIN-SUFFIX, 2mdn.net
 DOMAIN-SUFFIX, amazon-adsystem.com
@@ -26,7 +26,6 @@ DOMAIN-SUFFIX, teads.tv
 DOMAIN-SUFFIX, clarium.io
 DOMAIN-SUFFIX, rubiconproject.com
 DOMAIN-SUFFIX, dotomi.com
-DOMAIN-SUFFIX, pr.ybp.yahoo.com
 DOMAIN-SUFFIX, tapad.com
 DOMAIN-SUFFIX, pghub.io
 DOMAIN-SUFFIX, adthrive.com
@@ -38,3 +37,11 @@ DOMAIN-SUFFIX, rubiconproject.com
 DOMAIN-SUFFIX, postrelease.com
 DOMAIN-SUFFIX, colossusssp.com
 DOMAIN-SUFFIX, fastly.net
+DOMAIN-SUFFIX, js7k.com
+DOMAIN-SUFFIX, confiant-integrations.net
+DOMAIN-SUFFIX, ampproject.org
+DOMAIN-SUFFIX, openx.net
+DOMAIN-SUFFIX, bannerflow.net
+DOMAIN-SUFFIX, sharethrough.com
+DOMAIN-SUFFIX, criteo.com
+DOMAIN-SUFFIX, yimg.com
