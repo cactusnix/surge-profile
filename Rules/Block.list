@@ -1,14 +1,40 @@
 # Name: Block Rules
-# Total: 7
+# Total: 33
 # DOMAIN: 0
-# DOMAIN-SUFFIX: 7
+# DOMAIN-SUFFIX: 33
 # IP-ASN: 0
-# Updated: Tue Oct 11 2022 20:47:54 GMT+0800 (China Standard Time)
+# Updated: Wed Oct 12 2022 11:48:23 GMT+0800 (China Standard Time)
 
 DOMAIN-SUFFIX, wwads.cn
 DOMAIN-SUFFIX, googleadservices.com
 DOMAIN-SUFFIX, doubleclick.net
 DOMAIN-SUFFIX, adservice.google.com
+DOMAIN-SUFFIX, googletagmanager.com
+DOMAIN-SUFFIX, googletagservices.com
 DOMAIN-SUFFIX, sharethrough.com
 DOMAIN-SUFFIX, skimresources.com
 DOMAIN-SUFFIX, adthrive.com
+DOMAIN-SUFFIX, googlesyndication.com
+DOMAIN-SUFFIX, 3lift.com
+DOMAIN-SUFFIX, casalemedia.com
+DOMAIN-SUFFIX, analytics.yahoo.com
+DOMAIN-SUFFIX, adform.net
+DOMAIN-SUFFIX, 2mdn.net
+DOMAIN-SUFFIX, amazon-adsystem.com
+DOMAIN-SUFFIX, geoedge.be
+DOMAIN-SUFFIX, teads.tv
+DOMAIN-SUFFIX, clarium.io
+DOMAIN-SUFFIX, rubiconproject.com
+DOMAIN-SUFFIX, dotomi.com
+DOMAIN-SUFFIX, pr.ybp.yahoo.com
+DOMAIN-SUFFIX, tapad.com
+DOMAIN-SUFFIX, pghub.io
+DOMAIN-SUFFIX, adthrive.com
+DOMAIN-SUFFIX, kargo.com
+DOMAIN-SUFFIX, adnxs.com
+DOMAIN-SUFFIX, pubmatic.com
+DOMAIN-SUFFIX, undertone.com
+DOMAIN-SUFFIX, rubiconproject.com
+DOMAIN-SUFFIX, postrelease.com
+DOMAIN-SUFFIX, colossusssp.com
+DOMAIN-SUFFIX, fastly.net
