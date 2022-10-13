@@ -1,9 +1,9 @@
 # Name: General Rules
-# Total: 56
+# Total: 57
 # DOMAIN: 0
-# DOMAIN-SUFFIX: 51
+# DOMAIN-SUFFIX: 52
 # IP-ASN: 5
-# Updated: Wed Oct 12 2022 16:21:50 GMT+0800 (China Standard Time)
+# Updated: Thu Oct 13 2022 19:07:41 GMT+0800 (China Standard Time)
 
 DOMAIN-SUFFIX, facebook.com
 DOMAIN-SUFFIX, vercel.app
@@ -50,6 +50,7 @@ DOMAIN-SUFFIX, twimg.com
 DOMAIN-SUFFIX, t.co
 DOMAIN-SUFFIX, youtube.com
 DOMAIN-SUFFIX, ytimg.com
+DOMAIN-SUFFIX, youtu.be
 DOMAIN-SUFFIX, wikipedia.org
 DOMAIN-SUFFIX, wikivoyage.org
 DOMAIN-SUFFIX, wiktionary.org
