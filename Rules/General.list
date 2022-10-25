@@ -1,9 +1,9 @@
 # Name: General Rules
-# Total: 58
+# Total: 60
 # DOMAIN: 0
-# DOMAIN-SUFFIX: 53
+# DOMAIN-SUFFIX: 55
 # IP-ASN: 5
-# Updated: Fri Oct 14 2022 15:04:05 GMT+0800 (China Standard Time)
+# Updated: Tue Oct 25 2022 18:21:05 GMT+0800 (China Standard Time)
 
 DOMAIN-SUFFIX, facebook.com
 DOMAIN-SUFFIX, vercel.app
@@ -22,6 +22,8 @@ DOMAIN-SUFFIX, rsms.me
 DOMAIN-SUFFIX, glitch.com
 DOMAIN-SUFFIX, glitch.me
 DOMAIN-SUFFIX, practice.rs
+DOMAIN-SUFFIX, notion.so
+DOMAIN-SUFFIX, ak47hs.net
 DOMAIN-SUFFIX, github.com
 DOMAIN-SUFFIX, githubassets.com
 DOMAIN-SUFFIX, githubusercontent.com
