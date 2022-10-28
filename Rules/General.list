@@ -1,9 +1,9 @@
 # Name: General Rules
-# Total: 61
+# Total: 65
 # DOMAIN: 0
-# DOMAIN-SUFFIX: 56
+# DOMAIN-SUFFIX: 60
 # IP-ASN: 5
-# Updated: Fri Oct 28 2022 12:57:09 GMT+0800 (China Standard Time)
+# Updated: Fri Oct 28 2022 14:37:18 GMT+0800 (China Standard Time)
 
 DOMAIN-SUFFIX, facebook.com
 DOMAIN-SUFFIX, vercel.app
@@ -25,6 +25,10 @@ DOMAIN-SUFFIX, practice.rs
 DOMAIN-SUFFIX, notion.so
 DOMAIN-SUFFIX, ak47hs.net
 DOMAIN-SUFFIX, shuziyimin.org
+DOMAIN-SUFFIX, nytimes.com
+DOMAIN-SUFFIX, nyt.com
+DOMAIN-SUFFIX, engadget.com
+DOMAIN-SUFFIX, theverge.com
 DOMAIN-SUFFIX, github.com
 DOMAIN-SUFFIX, githubassets.com
 DOMAIN-SUFFIX, githubusercontent.com

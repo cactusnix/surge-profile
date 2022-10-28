@@ -1,9 +1,9 @@
 # Name: Privacy Rules
-# Total: 19
+# Total: 20
 # DOMAIN: 0
-# DOMAIN-SUFFIX: 19
+# DOMAIN-SUFFIX: 20
 # IP-ASN: 0
-# Updated: Fri Oct 28 2022 12:57:09 GMT+0800 (China Standard Time)
+# Updated: Fri Oct 28 2022 14:37:18 GMT+0800 (China Standard Time)
 
 DOMAIN-SUFFIX, app-measurement.com
 DOMAIN-SUFFIX, bugsnag.com
@@ -24,3 +24,4 @@ DOMAIN-SUFFIX, privacymanager.io
 DOMAIN-SUFFIX, brandmetrics.com
 DOMAIN-SUFFIX, rlcdn.com
 DOMAIN-SUFFIX, sprig.com
+DOMAIN-SUFFIX, cloudflareinsights.com
