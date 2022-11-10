@@ -1,9 +1,9 @@
 # Name: General Rules
-# Total: 70
+# Total: 71
 # DOMAIN: 0
-# DOMAIN-SUFFIX: 65
+# DOMAIN-SUFFIX: 66
 # IP-ASN: 5
-# Updated: Tue Nov 08 2022 11:14:19 GMT+0800 (China Standard Time)
+# Updated: Thu Nov 10 2022 15:19:18 GMT+0800 (China Standard Time)
 
 DOMAIN-SUFFIX, facebook.com
 DOMAIN-SUFFIX, vercel.app
@@ -34,6 +34,7 @@ DOMAIN-SUFFIX, aol.com
 DOMAIN-SUFFIX, yimg.com
 DOMAIN-SUFFIX, stackoverflow.com
 DOMAIN-SUFFIX, sstatic.net
+DOMAIN-SUFFIX, npmjs.org
 DOMAIN-SUFFIX, github.com
 DOMAIN-SUFFIX, githubassets.com
 DOMAIN-SUFFIX, githubusercontent.com
