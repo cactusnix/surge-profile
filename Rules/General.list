@@ -1,7 +1,51 @@
 # Name: General Rules
-# Total: 0
+# Total: 43
 # DOMAIN: 0
-# DOMAIN-SUFFIX: 0
-# IP-ASN: 0
+# DOMAIN-SUFFIX: 38
+# IP-ASN: 5
 # URL-REGEX: 0
-# Updated: Mon Nov 21 2022 17:24:55 GMT+0800 (China Standard Time)
+# Updated: Mon Nov 21 2022 19:04:33 GMT+0800 (China Standard Time)
+
+DOMAIN-SUFFIX, dns.google
+DOMAIN-SUFFIX, ggpht.com
+DOMAIN-SUFFIX, google.com
+DOMAIN-SUFFIX, googleapis.com
+DOMAIN-SUFFIX, googleusercontent.com
+DOMAIN-SUFFIX, googlevideo.com
+DOMAIN-SUFFIX, gstatic.com
+DOMAIN-SUFFIX, gmail.com
+DOMAIN-SUFFIX, github.com
+DOMAIN-SUFFIX, githubassets.com
+DOMAIN-SUFFIX, githubusercontent.com
+DOMAIN-SUFFIX, facebook.com
+DOMAIN-SUFFIX, instagram.com
+DOMAIN-SUFFIX, cdninstagram.com
+DOMAIN-SUFFIX, reddit.com
+DOMAIN-SUFFIX, redditmedia.com
+DOMAIN-SUFFIX, redd.it
+DOMAIN-SUFFIX, reddithelp.com
+DOMAIN-SUFFIX, redditstatic.com
+DOMAIN-SUFFIX, telegram.org
+DOMAIN-SUFFIX, t.me
+DOMAIN-SUFFIX, twitter.com
+DOMAIN-SUFFIX, twimg.com
+DOMAIN-SUFFIX, t.co
+DOMAIN-SUFFIX, wikipedia.org
+DOMAIN-SUFFIX, wikivoyage.org
+DOMAIN-SUFFIX, wiktionary.org
+DOMAIN-SUFFIX, wikibooks.org
+DOMAIN-SUFFIX, wikinews.org
+DOMAIN-SUFFIX, wikidata.org
+DOMAIN-SUFFIX, wikiversity.org
+DOMAIN-SUFFIX, wikiquote.org
+DOMAIN-SUFFIX, mediawiki.org
+DOMAIN-SUFFIX, wikisource.org
+DOMAIN-SUFFIX, wikimedia.org
+DOMAIN-SUFFIX, youtube.com
+DOMAIN-SUFFIX, ytimg.com
+DOMAIN-SUFFIX, youtu.be
+IP-ASN, 62041, no-resolve
+IP-ASN, 62014, no-resolve
+IP-ASN, 59930, no-resolve
+IP-ASN, 44907, no-resolve
+IP-ASN, 211157, no-resolve

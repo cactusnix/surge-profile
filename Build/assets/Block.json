@@ -2,5 +2,5 @@
   "URL-REGEX": [
     "^https://api.douban.com/v2/app_ads/(splash_statistics|splash_preload|splash_bid|splash_show)"
   ],
-  "DOMAIN-SUFFIX": ["doubleclick.net"]
+  "DOMAIN-SUFFIX": ["doubleclick.net", "googleadservices.com"]
 }
