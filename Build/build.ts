@@ -36,7 +36,17 @@ const parseDataToRuleObj = (data: Record<string, string[]>): RuleObj => {
   });
   return {
     info,
-    value,
+    value: value.sort((a, b) => {
+      const s1 = a.toUpperCase();
+      const s2 = b.toUpperCase();
+      if (s1 < s2) {
+        return -1;
+      }
+      if (s1 > s2) {
+        return 1;
+      }
+      return 0;
+    }),
   };
 };
 

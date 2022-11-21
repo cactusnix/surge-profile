@@ -1,11 +1,13 @@
 # Name: Block Rules
-# Total: 3
+# Total: 4
 # DOMAIN: 0
 # DOMAIN-SUFFIX: 2
 # IP-ASN: 0
 # URL-REGEX: 1
-# Updated: Mon Nov 21 2022 19:04:33 GMT+0800 (China Standard Time)
+# DOMAIN-KEYWORD: NaN
+# Updated: Mon Nov 21 2022 19:38:01 GMT+0800 (China Standard Time)
 
-URL-REGEX, ^https://api.douban.com/v2/app_ads/(splash_statistics|splash_preload|splash_bid|splash_show)
+DOMAIN-KEYWORD, adservice
 DOMAIN-SUFFIX, doubleclick.net
 DOMAIN-SUFFIX, googleadservices.com
+URL-REGEX, ^https://api.douban.com/v2/app_ads/(splash_statistics|splash_preload|splash_bid|splash_show)

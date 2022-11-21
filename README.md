@@ -10,6 +10,14 @@ It's a simplest profile that only for me.
 
 All rules that need to be proxy.
 
+- Google
+- YouTube
+- Facebook
+- Twitter
+- Instagram
+- Reddit
+- Telegram
+
 ### China.list
 
 All rules that need to be direct.
