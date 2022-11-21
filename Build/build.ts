@@ -1,6 +1,8 @@
 import { resolve, parse, join } from "path";
 import { write } from "bun";
 import China from "./assets/China.json";
+import General from "./assets/General.json";
+import Block from "./assets/Block.json";
 
 type RuleObj = {
   info: {
@@ -8,6 +10,7 @@ type RuleObj = {
     DOMAIN: number;
     "DOMAIN-SUFFIX": number;
     "IP-ASN": number;
+    "URL-REGEX": number;
   };
   value: string[];
 };
@@ -17,6 +20,7 @@ const defaultInfo = {
   DOMAIN: 0,
   "DOMAIN-SUFFIX": 0,
   "IP-ASN": 0,
+  "URL-REGEX": 0,
 };
 
 const parseDataToRuleObj = (data: Record<string, string[]>): RuleObj => {
@@ -53,21 +57,6 @@ const bunWrite = (fileName: string, obj: RuleObj) => {
   );
 };
 
-const buildGeneral = () => {
-  const info = { ...defaultInfo };
-  const value = [];
-  [].forEach((it) => {
-    info.Total += it.info.Total;
-    info.DOMAIN += it.info.DOMAIN;
-    info["DOMAIN-SUFFIX"] += it.info["DOMAIN-SUFFIX"];
-    info["IP-ASN"] += it.info["IP-ASN"];
-    value.push(...it.value);
-  });
-  bunWrite("General", {
-    info,
-    value,
-  });
-};
-
-buildGeneral();
 bunWrite("China", parseDataToRuleObj(China));
+bunWrite("General", parseDataToRuleObj(General));
+bunWrite("Block", parseDataToRuleObj(Block));

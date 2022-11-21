@@ -1,0 +1,9 @@
+# Name: Block Rules
+# Total: 1
+# DOMAIN: 0
+# DOMAIN-SUFFIX: 0
+# IP-ASN: 0
+# URL-REGEX: 1
+# Updated: Mon Nov 21 2022 16:53:49 GMT+0800 (China Standard Time)
+
+URL-REGEX, ^https://api.douban.com/v2/app_ads/(splash_statistics|splash_preload|splash_bid|splash_show)

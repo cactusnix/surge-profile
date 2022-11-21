@@ -1,6 +1,6 @@
 # Surge Conf
 
-## Intro 
+## Intro
 
 It's a simplest profile that only for me.
 
@@ -8,19 +8,12 @@ It's a simplest profile that only for me.
 
 ### General.list
 
-It's a rule that should be under proxy, but not include such as Twitter.list & Bilili.list and so on.
+All rules that need to be proxy.
 
-### Mixted.list
+### China.list
 
-### Other
-
-Other rules is just as kown as it's name.
-
-## Modules
-
-## Scripts
+All rules that need to be direct.
 
 ### SubInfo
 
 This script can generate the info of subscription with SubStore tool.
-
