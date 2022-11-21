@@ -3,7 +3,6 @@ import { write } from "bun";
 import Privacy from "./assets/Privacy.json";
 import Block from "./assets/Block.json";
 import Facebook from "./assets/Facebook.json";
-import General from "./assets/General.json";
 import GitHub from "./assets/GitHub.json";
 import Google from "./assets/Google.json";
 import Instagram from "./assets/Instagram.json";
@@ -13,6 +12,7 @@ import Telegram from "./assets/Telegram.json";
 import Twitter from "./assets/Twitter.json";
 import Wikipedia from "./assets/Wikipedia.json";
 import YouTube from "./assets/YouTube.json";
+import China from "./assets/China.json";
 
 type RuleObj = {
   info: {
@@ -82,7 +82,6 @@ const buildGeneral = () => {
   const value = [];
   [
     parseDataToRuleObj(Facebook),
-    parseDataToRuleObj(General),
     parseDataToRuleObj(GitHub),
     parseDataToRuleObj(Google),
     parseDataToRuleObj(Instagram),
@@ -117,3 +116,4 @@ bunWrite("Telegram", parseDataToRuleObj(Telegram));
 bunWrite("Twitter", parseDataToRuleObj(Twitter));
 bunWrite("YouTube", parseDataToRuleObj(YouTube));
 bunWrite("Wikipedia", parseDataToRuleObj(Wikipedia));
+bunWrite("China", parseDataToRuleObj(China));

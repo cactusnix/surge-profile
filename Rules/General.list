@@ -1,41 +1,11 @@
 # Name: General Rules
-# Total: 73
+# Total: 43
 # DOMAIN: 0
-# DOMAIN-SUFFIX: 68
+# DOMAIN-SUFFIX: 38
 # IP-ASN: 5
-# Updated: Mon Nov 14 2022 23:48:27 GMT+0800 (China Standard Time)
+# Updated: Mon Nov 21 2022 11:36:36 GMT+0800 (China Standard Time)
 
 DOMAIN-SUFFIX, facebook.com
-DOMAIN-SUFFIX, vercel.app
-DOMAIN-SUFFIX, duyaoss.com
-DOMAIN-SUFFIX, 9to5mac.com
-DOMAIN-SUFFIX, v2ex.com
-DOMAIN-SUFFIX, medium.com
-DOMAIN-SUFFIX, quora.com
-DOMAIN-SUFFIX, duckduckgo.com
-DOMAIN-SUFFIX, course.rs
-DOMAIN-SUFFIX, macrumors.com
-DOMAIN-SUFFIX, api.nxtlnodes.com
-DOMAIN-SUFFIX, amysecure.com
-DOMAIN-SUFFIX, raycast.com
-DOMAIN-SUFFIX, rsms.me
-DOMAIN-SUFFIX, glitch.com
-DOMAIN-SUFFIX, glitch.me
-DOMAIN-SUFFIX, practice.rs
-DOMAIN-SUFFIX, notion.so
-DOMAIN-SUFFIX, ak47hs.net
-DOMAIN-SUFFIX, shuziyimin.org
-DOMAIN-SUFFIX, nytimes.com
-DOMAIN-SUFFIX, nyt.com
-DOMAIN-SUFFIX, engadget.com
-DOMAIN-SUFFIX, theverge.com
-DOMAIN-SUFFIX, aolcdn.com
-DOMAIN-SUFFIX, aol.com
-DOMAIN-SUFFIX, yimg.com
-DOMAIN-SUFFIX, stackoverflow.com
-DOMAIN-SUFFIX, sstatic.net
-DOMAIN-SUFFIX, npmjs.org
-DOMAIN-SUFFIX, 9to5mac.com
 DOMAIN-SUFFIX, github.com
 DOMAIN-SUFFIX, githubassets.com
 DOMAIN-SUFFIX, githubusercontent.com
