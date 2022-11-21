@@ -1,17 +1,5 @@
 import { resolve, parse, join } from "path";
 import { write } from "bun";
-import Privacy from "./assets/Privacy.json";
-import Block from "./assets/Block.json";
-import Facebook from "./assets/Facebook.json";
-import GitHub from "./assets/GitHub.json";
-import Google from "./assets/Google.json";
-import Instagram from "./assets/Instagram.json";
-import Netflix from "./assets/Netflix.json";
-import Reddit from "./assets/Reddit.json";
-import Telegram from "./assets/Telegram.json";
-import Twitter from "./assets/Twitter.json";
-import Wikipedia from "./assets/Wikipedia.json";
-import YouTube from "./assets/YouTube.json";
 import China from "./assets/China.json";
 
 type RuleObj = {
@@ -65,32 +53,10 @@ const bunWrite = (fileName: string, obj: RuleObj) => {
   );
 };
 
-const buildTelegram = async () => {
-  // Telegram doesn't have domain for service, so use ASN
-  const obj = parseDataToRuleObj(Telegram);
-  // May need validate
-  const data = await fetch(
-    "https://bgp.he.net/search?search[search]=Telegram&commit=Search"
-  );
-  data.text().then((resp) => {
-    console.log(resp);
-  });
-};
-
 const buildGeneral = () => {
   const info = { ...defaultInfo };
   const value = [];
-  [
-    parseDataToRuleObj(Facebook),
-    parseDataToRuleObj(GitHub),
-    parseDataToRuleObj(Google),
-    parseDataToRuleObj(Instagram),
-    parseDataToRuleObj(Reddit),
-    parseDataToRuleObj(Telegram),
-    parseDataToRuleObj(Twitter),
-    parseDataToRuleObj(YouTube),
-    parseDataToRuleObj(Wikipedia),
-  ].forEach((it) => {
+  [].forEach((it) => {
     info.Total += it.info.Total;
     info.DOMAIN += it.info.DOMAIN;
     info["DOMAIN-SUFFIX"] += it.info["DOMAIN-SUFFIX"];
@@ -104,16 +70,4 @@ const buildGeneral = () => {
 };
 
 buildGeneral();
-bunWrite("Privacy", parseDataToRuleObj(Privacy));
-bunWrite("Block", parseDataToRuleObj(Block));
-bunWrite("Facebook", parseDataToRuleObj(Facebook));
-bunWrite("GitHub", parseDataToRuleObj(GitHub));
-bunWrite("Google", parseDataToRuleObj(Google));
-bunWrite("Instagram", parseDataToRuleObj(Instagram));
-bunWrite("Netflix", parseDataToRuleObj(Netflix));
-bunWrite("Reddit", parseDataToRuleObj(Reddit));
-bunWrite("Telegram", parseDataToRuleObj(Telegram));
-bunWrite("Twitter", parseDataToRuleObj(Twitter));
-bunWrite("YouTube", parseDataToRuleObj(YouTube));
-bunWrite("Wikipedia", parseDataToRuleObj(Wikipedia));
 bunWrite("China", parseDataToRuleObj(China));
