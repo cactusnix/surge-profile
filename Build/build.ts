@@ -3,6 +3,7 @@ import { write } from "bun";
 import China from "./assets/China.json";
 import General from "./assets/General.json";
 import Block from "./assets/Block.json";
+import Netflix from "./assets/Netflix.json";
 
 type RuleObj = {
   info: {
@@ -60,3 +61,4 @@ const bunWrite = (fileName: string, obj: RuleObj) => {
 bunWrite("China", parseDataToRuleObj(China));
 bunWrite("General", parseDataToRuleObj(General));
 bunWrite("Block", parseDataToRuleObj(Block));
+bunWrite("Netflix", parseDataToRuleObj(Netflix));
