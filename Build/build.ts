@@ -6,6 +6,7 @@ import Netflix from "./assets/Netflix.json";
 import Google from "./assets/Google.json";
 import General from "./assets/General.json";
 import Telegram from "./assets/Telegram.json";
+import WeChat from "./assets/WeChat.json";
 
 type RuleObj = {
   info: {
@@ -95,8 +96,26 @@ const buildGeneral = () => {
   });
 };
 
+const buildChina = () => {
+  const info = { ...defaultInfo };
+  const value = [];
+  [parseDataToRuleObj(China), parseDataToRuleObj(WeChat)].forEach((it) => {
+    info.Total += it.info.Total;
+    info.DOMAIN += it.info.DOMAIN;
+    info["DOMAIN-SUFFIX"] += it.info["DOMAIN-SUFFIX"];
+    info["IP-ASN"] += it.info["IP-ASN"];
+    info["URL-REGEX"] += it.info["URL-REGEX"];
+    info["DOMAIN-KEYWORD"] += it.info["DOMAIN-KEYWORD"];
+    value.push(...it.value);
+  });
+  bunWrite("China", {
+    info,
+    value,
+  });
+};
+
 buildGeneral();
-bunWrite("China", parseDataToRuleObj(China));
+buildChina();
 bunWrite("Block", parseDataToRuleObj(Block));
 bunWrite("Netflix", parseDataToRuleObj(Netflix));
 bunWrite("Telegram", parseDataToRuleObj(Telegram));
