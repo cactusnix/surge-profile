@@ -7,6 +7,7 @@ import Google from "./assets/Google.json";
 import General from "./assets/General.json";
 import Telegram from "./assets/Telegram.json";
 import Tencent from "./assets/Tencent.json";
+import Twitter from "./assets/Twitter.json";
 
 type RuleObj = {
   info: {
@@ -80,6 +81,7 @@ const buildGeneral = () => {
     parseDataToRuleObj(Google),
     parseDataToRuleObj(Netflix),
     parseDataToRuleObj(Telegram),
+    parseDataToRuleObj(Twitter),
     parseDataToRuleObj(General),
   ].forEach((it) => {
     info.Total += it.info.Total;
@@ -119,3 +121,4 @@ buildChina();
 bunWrite("Block", parseDataToRuleObj(Block));
 bunWrite("Netflix", parseDataToRuleObj(Netflix));
 bunWrite("Telegram", parseDataToRuleObj(Telegram));
+bunWrite("Twitter", parseDataToRuleObj(Twitter));
