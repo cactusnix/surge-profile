@@ -1,11 +1,14 @@
 # Name: Netflix Rules
-# Total: 3
+# Total: 5
 # DOMAIN: 0
-# DOMAIN-SUFFIX: 3
+# DOMAIN-SUFFIX: 5
 # IP-ASN: 0
 # URL-REGEX: 0
-# Updated: Mon Nov 21 2022 19:38:01 GMT+0800 (China Standard Time)
+# DOMAIN-KEYWORD: 0
+# Updated: Wed Nov 23 2022 11:12:14 GMT+0800 (China Standard Time)
 
 DOMAIN-SUFFIX, netflix.com
+DOMAIN-SUFFIX, nflxext.com
+DOMAIN-SUFFIX, nflximg.net
 DOMAIN-SUFFIX, nflxso.net
 DOMAIN-SUFFIX, nflxvideo.net

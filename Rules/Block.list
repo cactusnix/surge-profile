@@ -4,8 +4,8 @@
 # DOMAIN-SUFFIX: 2
 # IP-ASN: 0
 # URL-REGEX: 1
-# DOMAIN-KEYWORD: NaN
-# Updated: Mon Nov 21 2022 19:38:01 GMT+0800 (China Standard Time)
+# DOMAIN-KEYWORD: 1
+# Updated: Wed Nov 23 2022 11:12:14 GMT+0800 (China Standard Time)
 
 DOMAIN-KEYWORD, adservice
 DOMAIN-SUFFIX, doubleclick.net

@@ -1,9 +1,11 @@
 import { resolve, parse, join } from "path";
 import { write } from "bun";
 import China from "./assets/China.json";
-import General from "./assets/General.json";
 import Block from "./assets/Block.json";
 import Netflix from "./assets/Netflix.json";
+import Google from "./assets/Google.json";
+import General from "./assets/General.json";
+import Telegram from "./assets/Telegram.json";
 
 type RuleObj = {
   info: {
@@ -12,6 +14,7 @@ type RuleObj = {
     "DOMAIN-SUFFIX": number;
     "IP-ASN": number;
     "URL-REGEX": number;
+    "DOMAIN-KEYWORD": number;
   };
   value: string[];
 };
@@ -22,6 +25,7 @@ const defaultInfo = {
   "DOMAIN-SUFFIX": 0,
   "IP-ASN": 0,
   "URL-REGEX": 0,
+  "DOMAIN-KEYWORD": 0,
 };
 
 const parseDataToRuleObj = (data: Record<string, string[]>): RuleObj => {
@@ -68,7 +72,31 @@ const bunWrite = (fileName: string, obj: RuleObj) => {
   );
 };
 
+const buildGeneral = () => {
+  const info = { ...defaultInfo };
+  const value = [];
+  [
+    parseDataToRuleObj(General),
+    parseDataToRuleObj(Google),
+    parseDataToRuleObj(Netflix),
+    parseDataToRuleObj(Telegram),
+  ].forEach((it) => {
+    info.Total += it.info.Total;
+    info.DOMAIN += it.info.DOMAIN;
+    info["DOMAIN-SUFFIX"] += it.info["DOMAIN-SUFFIX"];
+    info["IP-ASN"] += it.info["IP-ASN"];
+    info["URL-REGEX"] += it.info["URL-REGEX"];
+    info["DOMAIN-KEYWORD"] += it.info["DOMAIN-KEYWORD"];
+    value.push(...it.value);
+  });
+  bunWrite("General", {
+    info,
+    value,
+  });
+};
+
+buildGeneral();
 bunWrite("China", parseDataToRuleObj(China));
-bunWrite("General", parseDataToRuleObj(General));
 bunWrite("Block", parseDataToRuleObj(Block));
 bunWrite("Netflix", parseDataToRuleObj(Netflix));
+bunWrite("Telegram", parseDataToRuleObj(Telegram));
