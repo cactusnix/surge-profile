@@ -6,7 +6,7 @@ import Netflix from "./assets/Netflix.json";
 import Google from "./assets/Google.json";
 import General from "./assets/General.json";
 import Telegram from "./assets/Telegram.json";
-import WeChat from "./assets/WeChat.json";
+import Tencent from "./assets/Tencent.json";
 
 type RuleObj = {
   info: {
@@ -77,10 +77,10 @@ const buildGeneral = () => {
   const info = { ...defaultInfo };
   const value = [];
   [
-    parseDataToRuleObj(General),
     parseDataToRuleObj(Google),
     parseDataToRuleObj(Netflix),
     parseDataToRuleObj(Telegram),
+    parseDataToRuleObj(General),
   ].forEach((it) => {
     info.Total += it.info.Total;
     info.DOMAIN += it.info.DOMAIN;
@@ -99,7 +99,7 @@ const buildGeneral = () => {
 const buildChina = () => {
   const info = { ...defaultInfo };
   const value = [];
-  [parseDataToRuleObj(China), parseDataToRuleObj(WeChat)].forEach((it) => {
+  [parseDataToRuleObj(Tencent), parseDataToRuleObj(China)].forEach((it) => {
     info.Total += it.info.Total;
     info.DOMAIN += it.info.DOMAIN;
     info["DOMAIN-SUFFIX"] += it.info["DOMAIN-SUFFIX"];
