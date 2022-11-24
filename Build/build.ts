@@ -8,6 +8,7 @@ import General from "./assets/General.json";
 import Telegram from "./assets/Telegram.json";
 import Tencent from "./assets/Tencent.json";
 import Twitter from "./assets/Twitter.json";
+import GitHub from "./assets/GitHub.json";
 
 type RuleObj = {
   info: {
@@ -78,6 +79,7 @@ const buildGeneral = () => {
   const info = { ...defaultInfo };
   const value = [];
   [
+    parseDataToRuleObj(GitHub),
     parseDataToRuleObj(Google),
     parseDataToRuleObj(Netflix),
     parseDataToRuleObj(Telegram),
