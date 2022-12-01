@@ -1,12 +1,10 @@
-# Name: Twitter Rules
-# Total: 3
+# Name: iCloud Rules
+# Total: 1
 # DOMAIN: 0
-# DOMAIN-SUFFIX: 3
+# DOMAIN-SUFFIX: 1
 # IP-ASN: 0
 # URL-REGEX: 0
 # DOMAIN-KEYWORD: 0
 # Updated: Thu Dec 01 2022 14:37:08 GMT+0800 (China Standard Time)
 
-DOMAIN-SUFFIX, t.co
-DOMAIN-SUFFIX, twimg.com
-DOMAIN-SUFFIX, twitter.com
+DOMAIN-SUFFIX, icloud.com

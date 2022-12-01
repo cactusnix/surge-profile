@@ -9,6 +9,7 @@ import Telegram from "./assets/Telegram.json";
 import Tencent from "./assets/Tencent.json";
 import Twitter from "./assets/Twitter.json";
 import GitHub from "./assets/GitHub.json";
+import iCloud from "./assets/iCloud.json";
 
 type RuleObj = {
   info: {
@@ -124,3 +125,4 @@ bunWrite("Block", parseDataToRuleObj(Block));
 bunWrite("Netflix", parseDataToRuleObj(Netflix));
 bunWrite("Telegram", parseDataToRuleObj(Telegram));
 bunWrite("Twitter", parseDataToRuleObj(Twitter));
+bunWrite("iCloud", parseDataToRuleObj(iCloud));
