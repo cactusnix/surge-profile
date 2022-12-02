@@ -1,0 +1,9 @@
+
+#!name = Search
+#!desc = Search Add-ons @cactusnix
+
+[MITM]
+hostname = %APPEND% google.cn
+
+[URL Rewrite]
+^http(s)?://www\.google\.cn https://www.google.com 302 
