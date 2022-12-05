@@ -5,4 +5,4 @@
 hostname = %APPEND% google.cn
 
 [URL Rewrite]
-^http://www\.google\.cn https://www.google.com header 
+^http(s)?://www\.google\.cn/search?q=(.+) https://www.google.com/search?q=$1 302 
