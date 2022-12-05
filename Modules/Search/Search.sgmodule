@@ -2,7 +2,7 @@
 #!desc = Search Add-ons @cactusnix
 
 [MITM]
-hostname = %APPEND% google.cn
+hostname = %APPEND% google.cn, g.cn
 
 [URL Rewrite]
 ^http(s)?://www\.google\.cn/search?q=(.+) https://www.google.com/search?q=$1 302 
