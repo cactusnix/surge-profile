@@ -10,6 +10,7 @@ import Tencent from "./assets/Tencent.json";
 import Twitter from "./assets/Twitter.json";
 import GitHub from "./assets/GitHub.json";
 import iCloud from "./assets/iCloud.json";
+import OpenAI from "./assets/OpenAI.json";
 
 type RuleObj = {
   info: {
@@ -126,3 +127,4 @@ bunWrite("Netflix", parseDataToRuleObj(Netflix));
 bunWrite("Telegram", parseDataToRuleObj(Telegram));
 bunWrite("Twitter", parseDataToRuleObj(Twitter));
 bunWrite("iCloud", parseDataToRuleObj(iCloud));
+bunWrite("OpenAI", parseDataToRuleObj(OpenAI));
