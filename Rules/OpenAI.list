@@ -1,10 +1,12 @@
 # Name: OpenAI Rules
-# Total: 1
+# Total: 3
 # DOMAIN: 0
-# DOMAIN-SUFFIX: 1
+# DOMAIN-SUFFIX: 3
 # IP-ASN: 0
 # URL-REGEX: 0
 # DOMAIN-KEYWORD: 0
-# Updated: Thu Feb 02 2023 19:42:28 GMT+0800 (China Standard Time)
+# Updated: Tue Mar 28 2023 14:40:50 GMT+0800 (China Standard Time)
 
+DOMAIN-SUFFIX, gpt3api.com
 DOMAIN-SUFFIX, openai.com
+DOMAIN-SUFFIX, openaiapi-site.azureedge.net
