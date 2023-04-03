@@ -1,3 +1,8 @@
 {
-  "DOMAIN-SUFFIX": ["openai.com", "gpt3api.com", "openaiapi-site.azureedge.net"]
+  "DOMAIN-SUFFIX": [
+    "openai.com",
+    "gpt3api.com",
+    "openaiapi-site.azureedge.net",
+    "auth0.com"
+  ]
 }
