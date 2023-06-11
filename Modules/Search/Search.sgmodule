@@ -2,7 +2,7 @@
 #!desc = Search Add-ons @cactusnix
 
 [MITM]
-hostname = %APPEND% www.google.cn, www.g.cn
+hostname = %APPEND% google.cn, g.cn
 
 [URL Rewrite]
 ^https?://(www\.)?(google|g)\.cn https://www.google.com 302 
