@@ -1,0 +1,13 @@
+# Name: Speedtest Rules
+# Total: 4
+# DOMAIN: 0
+# DOMAIN-SUFFIX: 0
+# IP-ASN: 0
+# URL-REGEX: 0
+# DOMAIN-KEYWORD: 4
+# Updated: Mon Nov 13 2023 10:56:00 GMT+0800 (China Standard Time)
+
+DOMAIN-KEYWORD, fast
+DOMAIN-KEYWORD, ookla
+DOMAIN-KEYWORD, speedtest
+DOMAIN-KEYWORD, testmy

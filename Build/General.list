@@ -1,0 +1,34 @@
+# Name: General Rules
+# Total: 25
+# DOMAIN: 0
+# DOMAIN-SUFFIX: 20
+# IP-ASN: 5
+# URL-REGEX: 0
+# DOMAIN-KEYWORD: 0
+# Updated: Mon Nov 13 2023 10:56:00 GMT+0800 (China Standard Time)
+
+DOMAIN-SUFFIX, github.com
+DOMAIN-SUFFIX, githubassets.com
+DOMAIN-SUFFIX, githubusercontent.com
+DOMAIN-SUFFIX, gmail.com
+DOMAIN-SUFFIX, google.com
+DOMAIN-SUFFIX, googleapis.com
+DOMAIN-SUFFIX, googleusercontent.com
+DOMAIN-SUFFIX, gstatic.com
+DOMAIN-SUFFIX, netflix.com
+DOMAIN-SUFFIX, nflxext.com
+DOMAIN-SUFFIX, nflximg.net
+DOMAIN-SUFFIX, nflxso.net
+DOMAIN-SUFFIX, nflxvideo.net
+DOMAIN-SUFFIX, t.me
+DOMAIN-SUFFIX, telegram.org
+IP-ASN, 211157, no-resolve
+IP-ASN, 44907, no-resolve
+IP-ASN, 59930, no-resolve
+IP-ASN, 62014, no-resolve
+IP-ASN, 62041, no-resolve
+DOMAIN-SUFFIX, t.co
+DOMAIN-SUFFIX, twimg.com
+DOMAIN-SUFFIX, twitter.com
+DOMAIN-SUFFIX, hk
+DOMAIN-SUFFIX, tw

@@ -11,6 +11,7 @@ import Twitter from "./assets/Twitter.json";
 import GitHub from "./assets/GitHub.json";
 import iCloud from "./assets/iCloud.json";
 import OpenAI from "./assets/OpenAI.json";
+import Speedtest from "./assets/Speedtest.json";
 
 type RuleObj = {
   info: {
@@ -128,3 +129,4 @@ bunWrite("Telegram", parseDataToRuleObj(Telegram));
 bunWrite("Twitter", parseDataToRuleObj(Twitter));
 bunWrite("iCloud", parseDataToRuleObj(iCloud));
 bunWrite("OpenAI", parseDataToRuleObj(OpenAI));
+bunWrite("Speedtest", parseDataToRuleObj(Speedtest));
