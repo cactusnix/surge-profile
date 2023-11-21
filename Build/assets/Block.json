@@ -1,4 +1,9 @@
 {
-  "DOMAIN-SUFFIX": ["doubleclick.net", "googleadservices.com"],
-  "DOMAIN-KEYWORD": ["adservice"]
+  "DOMAIN-SUFFIX": [
+    "doubleclick.net",
+    "googleadservices.com",
+    "googlesyndication.com",
+    "wwads.cn",
+    "amazon-adsystem.com"
+  ]
 }
