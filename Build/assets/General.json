@@ -1,8 +1,14 @@
 {
   "DOMAIN-SUFFIX": [
+    "jp",
+    "tw",
+    "hk",
     "v2ex.com",
     "digitaloceanspaces.com",
     "unraid.net",
-    "mirror.xyz"
+    "mirror.xyz",
+    "walletconnect.com",
+    "walletlink.org",
+    "opensea.io"
   ]
 }

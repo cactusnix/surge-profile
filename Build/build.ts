@@ -1,4 +1,4 @@
-import { resolve, parse, join } from "path";
+import { resolve, join } from "path";
 import { write } from "bun";
 /**
  * General Parts
