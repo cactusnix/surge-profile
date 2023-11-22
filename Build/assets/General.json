@@ -1,3 +1,9 @@
 {
-  "DOMAIN-SUFFIX": ["v2ex.com"]
+  "DOMAIN-SUFFIX": [
+    "v2ex.com",
+    "digitaloceanspaces.com",
+    "unraid.net",
+    "mirror.xyz",
+    "wikipedia.org"
+  ]
 }

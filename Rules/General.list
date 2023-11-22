@@ -1,12 +1,12 @@
 # Name: General Rules
-# Total: 24
+# Total: 28
 # DOMAIN: 0
-# DOMAIN-SUFFIX: 19
+# DOMAIN-SUFFIX: 23
 # DOMAIN-SET: 0
 # IP-ASN: 5
 # URL-REGEX: 0
 # DOMAIN-KEYWORD: 0
-# Updated: Tue Nov 21 2023 11:49:59 GMT+0800 (China Standard Time)
+# Updated: Wed Nov 22 2023 09:55:35 GMT+0800 (China Standard Time)
 
 DOMAIN-SUFFIX, github.com
 DOMAIN-SUFFIX, githubassets.com
@@ -31,4 +31,8 @@ DOMAIN-SUFFIX, ggpht.com
 DOMAIN-SUFFIX, googlevideo.com
 DOMAIN-SUFFIX, youtube.com
 DOMAIN-SUFFIX, ytimg.com
+DOMAIN-SUFFIX, digitaloceanspaces.com
+DOMAIN-SUFFIX, mirror.xyz
+DOMAIN-SUFFIX, unraid.net
 DOMAIN-SUFFIX, v2ex.com
+DOMAIN-SUFFIX, wikipedia.org
