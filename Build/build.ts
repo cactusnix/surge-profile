@@ -8,6 +8,7 @@ import Google from "./assets/general/Google.json";
 import GitHub from "./assets/general/GitHub.json";
 import Telegram from "./assets/general/Telegram.json";
 import Twitter from "./assets/general/Twitter.json";
+import Wiki from "./assets/general/Wiki.json";
 import YouTube from "./assets/general/YouTube.json";
 import General from "./assets/General.json";
 /**
@@ -93,6 +94,7 @@ const buildGeneral = () => {
     parseDataToRuleObj(Google),
     parseDataToRuleObj(Telegram),
     parseDataToRuleObj(Twitter),
+    parseDataToRuleObj(Wiki),
     parseDataToRuleObj(YouTube),
     parseDataToRuleObj(General),
   ].forEach((it) => {
