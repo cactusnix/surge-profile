@@ -4,6 +4,7 @@ import { write } from "bun";
  * General Parts
  * It's not include the special parts
  */
+import Discord from "./assets/general/Discord.json";
 import Google from "./assets/general/Google.json";
 import GitHub from "./assets/general/GitHub.json";
 import Telegram from "./assets/general/Telegram.json";
@@ -90,6 +91,7 @@ const buildGeneral = () => {
   const info = { ...defaultInfo };
   const value = [];
   [
+    parseDataToRuleObj(Discord),
     parseDataToRuleObj(GitHub),
     parseDataToRuleObj(Google),
     parseDataToRuleObj(Telegram),
