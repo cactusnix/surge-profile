@@ -1,3 +1,8 @@
 {
-  "DOMAIN-SUFFIX": ["discord.com", "discord.gg"]
+  "DOMAIN-SUFFIX": [
+    "discord.com",
+    "discord.gg",
+    "discord.media",
+    "discordapp.com"
+  ]
 }
