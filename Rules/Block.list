@@ -1,13 +1,14 @@
 # Name: Block Rules
-# Total: 5
+# Total: 6
 # DOMAIN: 0
-# DOMAIN-SUFFIX: 5
+# DOMAIN-SUFFIX: 6
 # DOMAIN-SET: 0
 # IP-ASN: 0
 # URL-REGEX: 0
 # DOMAIN-KEYWORD: 0
-# Updated: Mon Nov 27 2023 18:10:56 GMT+0800 (China Standard Time)
+# Updated: Mon Nov 27 2023 18:15:41 GMT+0800 (China Standard Time)
 
+DOMAIN-SUFFIX, adjust.com
 DOMAIN-SUFFIX, amazon-adsystem.com
 DOMAIN-SUFFIX, doubleclick.net
 DOMAIN-SUFFIX, googleadservices.com

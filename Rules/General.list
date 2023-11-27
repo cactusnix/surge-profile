@@ -1,14 +1,15 @@
 # Name: General Rules
-# Total: 37
+# Total: 38
 # DOMAIN: 0
-# DOMAIN-SUFFIX: 32
+# DOMAIN-SUFFIX: 33
 # DOMAIN-SET: 0
 # IP-ASN: 5
 # URL-REGEX: 0
 # DOMAIN-KEYWORD: 0
-# Updated: Mon Nov 27 2023 18:10:56 GMT+0800 (China Standard Time)
+# Updated: Mon Nov 27 2023 18:15:41 GMT+0800 (China Standard Time)
 
 DOMAIN-SUFFIX, discord.com
+DOMAIN-SUFFIX, discord.gg
 DOMAIN-SUFFIX, github.com
 DOMAIN-SUFFIX, githubassets.com
 DOMAIN-SUFFIX, githubusercontent.com
