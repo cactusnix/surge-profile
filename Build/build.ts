@@ -4,6 +4,7 @@ import { write } from "bun";
  * General Parts
  * It's not include the special parts
  */
+import Cloudflare from "./assets/general/Cloudflare.json";
 import Discord from "./assets/general/Discord.json";
 import Google from "./assets/general/Google.json";
 import GitHub from "./assets/general/GitHub.json";
@@ -91,6 +92,7 @@ const buildGeneral = () => {
   const info = { ...defaultInfo };
   const value = [];
   [
+    parseDataToRuleObj(Cloudflare),
     parseDataToRuleObj(Discord),
     parseDataToRuleObj(GitHub),
     parseDataToRuleObj(Google),
