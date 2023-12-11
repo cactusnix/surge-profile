@@ -3,6 +3,8 @@
     "openai.com",
     "gpt3api.com",
     "openaiapi-site.azureedge.net",
-    "auth0.com"
+    "auth0.com",
+    "oaistatic.com",
+    "oaiusercontent.com"
   ]
 }
