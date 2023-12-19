@@ -1,13 +1,14 @@
 # Name: Block Rules
-# Total: 7
+# Total: 8
 # DOMAIN: 0
-# DOMAIN-SUFFIX: 7
+# DOMAIN-SUFFIX: 8
 # DOMAIN-SET: 0
 # IP-ASN: 0
 # URL-REGEX: 0
 # DOMAIN-KEYWORD: 0
-# Updated: Tue Dec 19 2023 09:55:41 GMT+0800 (China Standard Time)
+# Updated: Tue Dec 19 2023 18:44:52 GMT+0800 (China Standard Time)
 
+DOMAIN-SUFFIX, ad-delivery.net
 DOMAIN-SUFFIX, adjust.com
 DOMAIN-SUFFIX, amazon-adsystem.com
 DOMAIN-SUFFIX, criteo.com
