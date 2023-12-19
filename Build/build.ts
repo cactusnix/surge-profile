@@ -8,6 +8,7 @@ import Cloudflare from "./assets/general/Cloudflare.json";
 import Discord from "./assets/general/Discord.json";
 import Google from "./assets/general/Google.json";
 import GitHub from "./assets/general/GitHub.json";
+import Reddit from "./assets/general/Reddit.json";
 import Telegram from "./assets/general/Telegram.json";
 import Twitter from "./assets/general/Twitter.json";
 import Wiki from "./assets/general/Wiki.json";
@@ -96,6 +97,7 @@ const buildGeneral = () => {
     parseDataToRuleObj(Discord),
     parseDataToRuleObj(GitHub),
     parseDataToRuleObj(Google),
+    parseDataToRuleObj(Reddit),
     parseDataToRuleObj(Telegram),
     parseDataToRuleObj(Twitter),
     parseDataToRuleObj(Wiki),
