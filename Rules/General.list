@@ -1,12 +1,12 @@
 # Name: General Rules
-# Total: 53
+# Total: 54
 # DOMAIN: 0
-# DOMAIN-SUFFIX: 48
+# DOMAIN-SUFFIX: 49
 # DOMAIN-SET: 0
 # IP-ASN: 5
 # URL-REGEX: 0
 # DOMAIN-KEYWORD: 0
-# Updated: Thu Jan 04 2024 11:18:13 GMT+0800 (China Standard Time)
+# Updated: Mon Jan 08 2024 18:48:41 GMT+0800 (China Standard Time)
 
 DOMAIN-SUFFIX, cloudflare.com
 DOMAIN-SUFFIX, cloudflareaccess.com
@@ -16,6 +16,7 @@ DOMAIN-SUFFIX, discord.media
 DOMAIN-SUFFIX, discordapp.com
 DOMAIN-SUFFIX, discordapp.net
 DOMAIN-SUFFIX, github.com
+DOMAIN-SUFFIX, github.io
 DOMAIN-SUFFIX, githubassets.com
 DOMAIN-SUFFIX, githubusercontent.com
 DOMAIN-SUFFIX, app-measurement.com
