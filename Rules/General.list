@@ -1,12 +1,12 @@
 # Name: General Rules
-# Total: 54
+# Total: 55
 # DOMAIN: 0
-# DOMAIN-SUFFIX: 49
+# DOMAIN-SUFFIX: 50
 # DOMAIN-SET: 0
 # IP-ASN: 5
 # URL-REGEX: 0
 # DOMAIN-KEYWORD: 0
-# Updated: Mon Jan 08 2024 18:48:41 GMT+0800 (China Standard Time)
+# Updated: Thu Jan 11 2024 17:24:42 GMT+0800 (China Standard Time)
 
 DOMAIN-SUFFIX, cloudflare.com
 DOMAIN-SUFFIX, cloudflareaccess.com
@@ -49,6 +49,7 @@ DOMAIN-SUFFIX, youtube.com
 DOMAIN-SUFFIX, ytimg.com
 DOMAIN-SUFFIX, arkoselabs.com
 DOMAIN-SUFFIX, bad.news
+DOMAIN-SUFFIX, brew.sh
 DOMAIN-SUFFIX, digitaloceanspaces.com
 DOMAIN-SUFFIX, hk
 DOMAIN-SUFFIX, intercom.io
