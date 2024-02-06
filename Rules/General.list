@@ -1,12 +1,12 @@
 # Name: General Rules
-# Total: 55
+# Total: 57
 # DOMAIN: 0
-# DOMAIN-SUFFIX: 50
+# DOMAIN-SUFFIX: 52
 # DOMAIN-SET: 0
 # IP-ASN: 5
 # URL-REGEX: 0
 # DOMAIN-KEYWORD: 0
-# Updated: Thu Jan 11 2024 17:24:42 GMT+0800 (China Standard Time)
+# Updated: Tue Feb 06 2024 15:34:29 GMT+0800 (China Standard Time)
 
 DOMAIN-SUFFIX, cloudflare.com
 DOMAIN-SUFFIX, cloudflareaccess.com
@@ -56,6 +56,8 @@ DOMAIN-SUFFIX, intercom.io
 DOMAIN-SUFFIX, jp
 DOMAIN-SUFFIX, medium.com
 DOMAIN-SUFFIX, mirror.xyz
+DOMAIN-SUFFIX, okx-dns.com
+DOMAIN-SUFFIX, okx.com
 DOMAIN-SUFFIX, opensea.io
 DOMAIN-SUFFIX, tw
 DOMAIN-SUFFIX, unraid.net
