@@ -18,7 +18,8 @@ import General from "./assets/General.json";
  * Special Parts
  */
 import Block from "./assets/Block.json";
-import AI from "./assets/AI.json";
+import OpenAI from "./assets/OpenAI.json";
+import ClaudeAI from "./assets/ClaudeAI.json";
 import Netflix from "./assets/Netflix.json";
 import Speedtest from "./assets/Speedtest.json";
 
@@ -122,5 +123,6 @@ const buildGeneral = () => {
 buildGeneral();
 bunWrite("Block", parseDataToRuleObj(Block));
 bunWrite("Netflix", parseDataToRuleObj(Netflix));
-bunWrite("AI", parseDataToRuleObj(AI));
+bunWrite("OpenAI", parseDataToRuleObj(OpenAI));
+bunWrite("ClaudeAI", parseDataToRuleObj(ClaudeAI));
 bunWrite("Speedtest", parseDataToRuleObj(Speedtest));
