@@ -1,14 +1,16 @@
-# Name: OpenAI Rules
-# Total: 6
+# Name: AI Rules
+# Total: 8
 # DOMAIN: 0
-# DOMAIN-SUFFIX: 6
+# DOMAIN-SUFFIX: 8
 # DOMAIN-SET: 0
 # IP-ASN: 0
 # URL-REGEX: 0
 # DOMAIN-KEYWORD: 0
-# Updated: Tue Feb 06 2024 17:15:49 GMT+0800 (China Standard Time)
+# Updated: Thu Feb 29 2024 09:19:51 GMT+0800 (China Standard Time)
 
+DOMAIN-SUFFIX, anthropic.com
 DOMAIN-SUFFIX, auth0.com
+DOMAIN-SUFFIX, claude.ai
 DOMAIN-SUFFIX, gpt3api.com
 DOMAIN-SUFFIX, oaistatic.com
 DOMAIN-SUFFIX, oaiusercontent.com

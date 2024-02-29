@@ -5,6 +5,8 @@
     "openaiapi-site.azureedge.net",
     "auth0.com",
     "oaistatic.com",
-    "oaiusercontent.com"
+    "oaiusercontent.com",
+    "anthropic.com",
+    "claude.ai"
   ]
 }
