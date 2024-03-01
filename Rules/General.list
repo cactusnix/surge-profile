@@ -1,12 +1,12 @@
 # Name: General Rules
-# Total: 59
+# Total: 61
 # DOMAIN: 0
-# DOMAIN-SUFFIX: 54
+# DOMAIN-SUFFIX: 56
 # DOMAIN-SET: 0
 # IP-ASN: 5
 # URL-REGEX: 0
 # DOMAIN-KEYWORD: 0
-# Updated: Thu Feb 29 2024 09:24:41 GMT+0800 (China Standard Time)
+# Updated: Fri Mar 01 2024 10:40:48 GMT+0800 (China Standard Time)
 
 DOMAIN-SUFFIX, cloudflare.com
 DOMAIN-SUFFIX, cloudflareaccess.com
@@ -61,6 +61,8 @@ DOMAIN-SUFFIX, okx-dns1.com
 DOMAIN-SUFFIX, okx-dns2.com
 DOMAIN-SUFFIX, okx.com
 DOMAIN-SUFFIX, opensea.io
+DOMAIN-SUFFIX, slack.com
+DOMAIN-SUFFIX, slackb.com
 DOMAIN-SUFFIX, tw
 DOMAIN-SUFFIX, unraid.net
 DOMAIN-SUFFIX, v2ex.com
