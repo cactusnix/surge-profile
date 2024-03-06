@@ -1,5 +1,6 @@
 #!name = Search
 #!desc = Search Add-ons @cactusnix
+#!category = Enhancements
 
 [MITM]
 hostname = %APPEND% duckduckgo.com
