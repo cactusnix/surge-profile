@@ -1,0 +1,6 @@
+#!name = NetworkFirewall
+#!desc = It will block requests 15 seconds after change to WiFi
+#!category = Enhancements
+
+[Script]
+Firewall(event) = type=event, event-name=network-changed, engine=jsc, script-path=https://raw.githubusercontent.com/cactusnix/surge-profile/dev/Scripts/NetworkFirewall.js
