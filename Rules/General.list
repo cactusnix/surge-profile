@@ -9,6 +9,7 @@
 # Updated: Wed Mar 06 2024 09:32:40 GMT+0800 (China Standard Time)
 
 DOMAIN-SUFFIX, icloud.com
+DOMAIN-SUFFIX, docker.com
 DOMAIN-SUFFIX, cloudflare.com
 DOMAIN-SUFFIX, cloudflareaccess.com
 DOMAIN-SUFFIX, discord.com
