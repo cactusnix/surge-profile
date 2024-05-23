@@ -8,6 +8,10 @@
 # DOMAIN-KEYWORD: 0
 # Updated: Wed Mar 06 2024 09:32:40 GMT+0800 (China Standard Time)
 
+DOMAIN-SUFFIX, cdninstagram.com
+DOMAIN-SUFFIX, instagr.am
+DOMAIN-SUFFIX, instagram.com
+DOMAIN-KEYWORD, instagram
 DOMAIN-SUFFIX, 51cg1.com
 DOMAIN-SUFFIX, icloud.com
 DOMAIN-SUFFIX, docker.com
