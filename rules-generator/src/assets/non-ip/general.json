@@ -1,0 +1,24 @@
+{
+  "DOMAIN-SUFFIX": [
+    {
+      "name": "mojim.com",
+      "desc": "歌词",
+      "category": "other"
+    },
+    {
+      "name": "godaddy.com",
+      "desc": "域名",
+      "category": "other"
+    },
+    {
+      "name": "duckduckgo.com",
+      "desc": "搜索",
+      "category": "other"
+    },
+    {
+      "name": "brew.sh",
+      "desc": "homebrew",
+      "category": "other"
+    }
+  ]
+}
