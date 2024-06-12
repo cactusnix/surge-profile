@@ -2,22 +2,52 @@
   "DOMAIN-SUFFIX": [
     {
       "name": "mojim.com",
-      "desc": "歌词",
+      "desc": "lyrics",
       "category": "other"
     },
     {
       "name": "godaddy.com",
-      "desc": "域名",
+      "desc": "domain",
       "category": "other"
     },
     {
       "name": "duckduckgo.com",
-      "desc": "搜索",
+      "desc": "search",
       "category": "other"
     },
     {
       "name": "brew.sh",
       "desc": "homebrew",
+      "category": "other"
+    },
+    {
+      "name": "medium.com",
+      "desc": "blog",
+      "category": "other"
+    },
+    {
+      "name": "bad.news",
+      "desc": "news",
+      "category": "other"
+    },
+    {
+      "name": "wikipedia.org",
+      "desc": "wiki",
+      "category": "other"
+    },
+    {
+      "name": "vercel.com",
+      "desc": "deploy",
+      "category": "other"
+    },
+    {
+      "name": "nssurge.com",
+      "desc": "surge",
+      "category": "other"
+    },
+    {
+      "name": "v2ex.com",
+      "desc": "forum",
       "category": "other"
     }
   ]

@@ -1,0 +1,9 @@
+{
+  "DOMAIN-SUFFIX": [
+    {
+      "name": "docker.com",
+      "desc": "docker",
+      "category": "code"
+    }
+  ]
+}
