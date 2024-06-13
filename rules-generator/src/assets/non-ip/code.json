@@ -4,6 +4,41 @@
       "name": "docker.com",
       "desc": "docker",
       "category": "code"
+    },
+    {
+      "name": "github.com",
+      "desc": "github",
+      "category": "code"
+    },
+    {
+      "name": "githubassets.com",
+      "desc": "github",
+      "category": "code"
+    },
+    {
+      "name": "githubusercontent.com",
+      "desc": "github",
+      "category": "code"
+    },
+    {
+      "name": "github.io",
+      "desc": "github",
+      "category": "code"
+    },
+    {
+      "name": "githubstatus.com",
+      "desc": "github",
+      "category": "code"
+    },
+    {
+      "name": "github.blog",
+      "desc": "github",
+      "category": "code"
+    },
+    {
+      "name": "github.community",
+      "desc": "github",
+      "category": "code"
     }
   ]
 }

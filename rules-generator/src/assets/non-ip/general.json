@@ -36,6 +36,11 @@
       "category": "other"
     },
     {
+      "name": "wikimedia.org",
+      "desc": "wiki",
+      "category": "other"
+    },
+    {
       "name": "vercel.com",
       "desc": "deploy",
       "category": "other"
