@@ -64,6 +64,61 @@
       "name": "gmail.com",
       "desc": "email",
       "category": "other"
+    },
+    {
+      "name": "g.co",
+      "desc": "google",
+      "category": "other"
+    },
+    {
+      "name": "twitter.com",
+      "desc": "twitter",
+      "category": "other"
+    },
+    {
+      "name": "twimg.com",
+      "desc": "twitter",
+      "category": "other"
+    },
+    {
+      "name": "t.co",
+      "desc": "twitter",
+      "category": "other"
+    },
+    {
+      "name": "youtube.com",
+      "desc": "youtube",
+      "category": "video"
+    },
+    {
+      "name": "ytimg.com",
+      "desc": "youtube",
+      "category": "video"
+    },
+    {
+      "name": "ggpht.com",
+      "desc": "youtube",
+      "category": "video"
+    },
+    {
+      "name": "googlevideo.com",
+      "desc": "youtube",
+      "category": "video"
+    },
+    {
+      "name": "youtu.be",
+      "desc": "youtube",
+      "category": "video"
+    },
+    {
+      "name": "cloudflare.com",
+      "desc": "cloudflare",
+      "category": "other"
+    },
+    {
+      "name": "cloudflareinsights.com",
+      "desc": "cloudflare",
+      "category": "other"
     }
   ]
 }
