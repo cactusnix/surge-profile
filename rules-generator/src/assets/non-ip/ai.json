@@ -1,0 +1,19 @@
+{
+  "DOMAIN-SUFFIX": [
+    {
+      "name": "openai.com",
+      "desc": "openai",
+      "category": "ai"
+    },
+    {
+      "name": "claude.ai",
+      "desc": "claude",
+      "category": "ai"
+    },
+    {
+      "name": "anthropic.com",
+      "desc": "claude",
+      "category": "ai"
+    }
+  ]
+}

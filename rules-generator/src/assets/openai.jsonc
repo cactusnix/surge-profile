@@ -1,8 +1,0 @@
-{
-  "DOMAIN-SUFFIX": [
-    // API
-    "openai.com",
-    // 网站 gpt
-    "chatgpt.com"
-  ]
-}

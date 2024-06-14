@@ -54,6 +54,16 @@
       "name": "v2ex.com",
       "desc": "forum",
       "category": "other"
+    },
+    {
+      "name": "google.com",
+      "desc": "search",
+      "category": "other"
+    },
+    {
+      "name": "gmail.com",
+      "desc": "email",
+      "category": "other"
     }
   ]
 }
