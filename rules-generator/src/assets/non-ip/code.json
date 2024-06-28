@@ -44,6 +44,11 @@
       "name": "rust-lang.org",
       "desc": "lang",
       "category": "code"
+    },
+    {
+      "name": "turbo.build",
+      "desc": "framework",
+      "category": "code"
     }
   ]
 }

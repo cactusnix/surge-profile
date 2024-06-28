@@ -119,6 +119,11 @@
       "name": "cloudflareinsights.com",
       "desc": "cloudflare",
       "category": "other"
+    },
+    {
+      "name": "raycast.com",
+      "desc": "tool",
+      "category": "other"
     }
   ]
 }
