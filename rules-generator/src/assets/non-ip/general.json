@@ -124,6 +124,11 @@
       "name": "raycast.com",
       "desc": "tool",
       "category": "other"
+    },
+    {
+      "name": "shopify.com",
+      "desc": "shop",
+      "category": "other"
     }
   ]
 }
