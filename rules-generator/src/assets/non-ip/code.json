@@ -49,6 +49,16 @@
       "name": "turbo.build",
       "desc": "framework",
       "category": "code"
+    },
+    {
+      "name": "vuejs.org",
+      "desc": "framework",
+      "category": "code"
+    },
+    {
+      "name": "npmjs.org",
+      "desc": "npm",
+      "category": "code"
     }
   ]
 }
