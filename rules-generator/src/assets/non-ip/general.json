@@ -129,6 +129,16 @@
       "name": "shopify.com",
       "desc": "shop",
       "category": "other"
+    },
+    {
+      "name": "longbridge.global",
+      "desc": "finance",
+      "category": "other"
+    },
+    {
+      "name": "lbkrs.com",
+      "desc": "finance",
+      "category": "other"
     }
   ]
 }
