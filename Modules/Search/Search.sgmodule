@@ -6,4 +6,4 @@
 hostname = %APPEND% google.cn
 
 [URL Rewrite]
-^https://google\.cn/\?q=([^&]+).+ https://www.google.com/search?q=$1 302
+^https://www\.google\.cn/\?q=([^&]+).+ https://www.google.com/search?q=$1 302
